@@ -1,14 +1,24 @@
 # depslib dependency file v1.0
-1681765032 source:c:\trab01tecpro\main.cpp
-	"./headers/MATRICULA.h"
+1682625908 source:c:\trab01tecpro\main.cpp
+	"./headers/Eduardo/MATRICULA.h"
 	<iostream>
 	<string>
+	<regex>
 
-1681765069 source:c:\trab01tecpro\implementacao\matricula.cpp
+1681765299 source:c:\trab01tecpro\implementacao\matricula.cpp
 	"../headers/MATRICULA.h"
 	<stdexcept>
 	<string>
 
 1681764491 c:\trab01tecpro\headers\matricula.h
 	<string>
+
+1682625288 c:\trab01tecpro\headers\eduardo\matricula.h
+	<string>
+
+1682625953 source:c:\trab01tecpro\implementacao\eduardo\matricula.cpp
+	"../../headers/Eduardo/MATRICULA.h"
+	<stdexcept>
+	<string>
+	<regex>
 
