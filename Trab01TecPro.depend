@@ -1,6 +1,6 @@
 # depslib dependency file v1.0
-1682625908 source:c:\trab01tecpro\main.cpp
-	"./headers/Eduardo/MATRICULA.h"
+1682692580 source:c:\trab01tecpro\main.cpp
+	"./headers/Eduardo/EdDOMINIOS.h"
 	<iostream>
 	<string>
 	<regex>
@@ -21,4 +21,7 @@
 	<stdexcept>
 	<string>
 	<regex>
+
+1682706168 c:\trab01tecpro\headers\eduardo\eddominios.h
+	<string>
 

@@ -1,5 +1,6 @@
 // Por: Eduardo Ferreira
-#include "../../headers/Eduardo/MATRICULA.h"
+
+#include "../../headers/Eduardo/EdDOMINIOS.h"
 #include <stdexcept> // Para a exceção de invalidez do construtor.
 #include <string>
 #include <regex> // Para manipulação de strings.
@@ -14,47 +15,21 @@ int MATRICULA::getHash(std::string s) {
     for (int i=0; i<6; i++) { // Percorre a matrícula até o penúltimo número para preencher o Hash;
         Hash += (s[i] - '0'); // Transforma o caractere em inteiro e soma ao Hash;
     }
-    return Hash % 10; // O Hash em si é o resultado dessa divisão.
+    return Hash % 10;         // O Hash em si é o resultado dessa divisão.
 }
 
 void MATRICULA::Validar(std::string matric){
     if (matric.size() != 7) {
-        throw std::invalid_argument("Matricula Invalida: Tamanho Invalido."); // A matrícula possui um tamanho específico;
+        throw std::invalid_argument("Matricula Invalida: Tamanho Invalido.");
     }
     int Hash = getHash(matric);
     int x = matric[6] - '0'; // Converte o último caractere em um número;
-    //return (Hash == x); // Verifica se o último caractere é igual ao hash.
     if (Hash != x) {
         throw std::invalid_argument("Matricula Invalida: Digito Verificador Invalido.");
     }
-    /*
-        MUDANÇA: Esse método agora é void. Não há necessidade de reetornar um valor,
-            já que agora ele possui exceções para caso de erro.
-    */
 }
 
 void MATRICULA::setMatricula(std::string matric) {
-    Validar(matric);
-    /*
-    if (!Validar(matric)) {
-        throw std::invalid_argument("Matricula Invalida.");
-    }
-        MUDANÇA: se Validar lançar excessão, a linha abaixo não srá executada.
-            Dessa forma, não há necessidade de usar um "if"
-    */
-    nmrMatr = matric;
-}
-
-MATRICULA::MATRICULA(std::string matric) {
-    /*
-    if (Validar(matric)) {
-        nmrMatr = matric;
-    }
-    else {
-        throw std::invalid_argument("Matricula Invalida: Digito Verificador Nao Confere.");
-    }
-        MUDANÇA: Agora que Validar é void, não há porque lançar exceção aqui.
-    */
     Validar(matric);
     nmrMatr = matric;
 }

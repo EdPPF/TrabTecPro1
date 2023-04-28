@@ -1,10 +1,10 @@
 var indexSectionsWithContent =
 {
-  0: "gmrst",
-  1: "m",
-  2: "mr",
+  0: "cegmrst",
+  1: "cmrt",
+  2: "emr",
   3: "gms",
-  4: "t"
+  4: "s"
 };
 
 var indexSectionNames =
@@ -18,10 +18,10 @@ var indexSectionNames =
 
 var indexSectionLabels =
 {
-  0: "All",
+  0: "Todos",
   1: "Classes",
-  2: "Files",
-  3: "Functions",
-  4: "Pages"
+  2: "Arquivos",
+  3: "Funções",
+  4: "Páginas"
 };
 
