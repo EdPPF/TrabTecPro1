@@ -32,8 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="headers/MATRICULA.h" />
-		<Unit filename="implementacao/MATRICULA.cpp" />
+		<Unit filename="headers/Eduardo/EdDOMINIOS.h" />
+		<Unit filename="implementacao/Eduardo/EdIMPLEMENTACAO.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

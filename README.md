@@ -1,5 +1,21 @@
-@mainpage Teste de Documentação com Doxygen
-@author Eduardo Ferreira, Renan Santos
+@mainpage Sistema de Gerenciamento de Testes
+@authors **Eduardo Ferreira**, **Renan Santos**
 
-### Esse é um teste de documentação para Doxygen.
-Essa linha serve como corpo do texto mesmo, aparentemente, enquanto a linha acima serve como meio que um título.
+### Trabalho de Técnicas de Programação 1 - UnB, 2023/1
+Nesta primeira etapa, serão desenvolvidas classes representando vários Domínios e Entidades do sistema.
+Além disso, serao implementados testes para essas classes.
+
+As classes Domínios são:
+	- CLASSE;
+	- CODIGO;
+	- DATA;
+	- MATRICULA;
+	- RESULTADO;
+	- SENHA;
+	- TELEFONE;
+	- TEXTO.
+
+As Entidades são:
+	- Desenvolvedor;
+	- Testes;
+	- Casos de Teste.

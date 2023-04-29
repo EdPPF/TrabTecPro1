@@ -25,20 +25,19 @@
 var NAVTREE =
 [
   [ "Sistema de Gerenciamento de Testes", "index.html", [
-    [ "Teste de Documentação com Doxygen", "index.html", null ],
     [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+      [ "Lista de Classes", "annotated.html", "annotated_dup" ],
+      [ "Índice dos Componentes", "classes.html", null ],
+      [ "Membros de classe", "functions.html", [
+        [ "Todos", "functions.html", null ],
+        [ "Funções", "functions_func.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
+    [ "Arquivos", "files.html", [
+      [ "Lista de Arquivos", "files.html", "files_dup" ],
+      [ "Membros dos Arquivos", "globals.html", [
+        [ "Todos", "globals.html", null ],
+        [ "Funções", "globals_func.html", null ]
       ] ]
     ] ]
   ] ]
@@ -46,8 +45,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_m_a_t_r_i_c_u_l_a_8cpp.html"
+"_ed_d_o_m_i_n_i_o_s_8h.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'clique para desativar a sincronização do painel';
+var SYNCOFFMSG = 'clique para ativar a sincronização do painel';
