@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1682692580 source:c:\trab01tecpro\main.cpp
-	"./headers/Eduardo/EdDOMINIOS.h"
+1683298390 source:c:\trab01tecpro\main.cpp
+	"./headers/DOMINIOS.h"
 	<iostream>
 	<string>
+	<cctype>
 	<regex>
 
 1681765299 source:c:\trab01tecpro\implementacao\matricula.cpp
@@ -22,6 +23,41 @@
 	<string>
 	<regex>
 
-1682706168 c:\trab01tecpro\headers\eduardo\eddominios.h
+1683250346 c:\trab01tecpro\headers\eduardo\eddominios.h
 	<string>
+
+1683152177 source:c:\trab01tecpro\implementacao\eduardo\edimplementacao.cpp
+	"../../headers/Eduardo/EdDOMINIOS.h"
+	<stdexcept>
+	<string>
+	<regex>
+
+1682950065 source:c:\trab01tecpro\implementacao\eduardo\edentidadeimplementacao.cpp
+	<string>
+	<cctype>
+	<algorithm>
+	"../../headers/Eduardo/EdENTIDADES.h"
+
+1683253486 c:\trab01tecpro\headers\eduardo\edentidades.h
+	<string>
+	"../Renan/RnDOMINIOS.h"
+
+1683247899 source:c:\trab01tecpro\implementacao\renan\rnimplementacao.cpp
+	"../../headers/Renan/RnDOMINIOS.h"
+	<stdexcept>
+	<string>
+	<regex>
+
+1683251423 c:\trab01tecpro\headers\renan\rndominios.h
+	<string>
+	"../Eduardo/EdDOMINIOS.h"
+
+1683298036 c:\trab01tecpro\headers\dominios.h
+	<string>
+
+1683299142 source:c:\trab01tecpro\implementacao\dominiosimplementacao.cpp
+	"../headers/DOMINIOS.h"
+	<stdexcept>
+	<string>
+	<regex>
 

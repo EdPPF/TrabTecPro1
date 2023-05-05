@@ -28,9 +28,11 @@ var NAVTREE =
     [ "Classes", "annotated.html", [
       [ "Lista de Classes", "annotated.html", "annotated_dup" ],
       [ "Índice dos Componentes", "classes.html", null ],
+      [ "Hierarquia de Classes", "hierarchy.html", "hierarchy" ],
       [ "Membros de classe", "functions.html", [
         [ "Todos", "functions.html", null ],
-        [ "Funções", "functions_func.html", null ]
+        [ "Funções", "functions_func.html", null ],
+        [ "Variáveis", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Arquivos", "files.html", [

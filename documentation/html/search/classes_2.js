@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['resultado_0',['RESULTADO',['../class_r_e_s_u_l_t_a_d_o.html',1,'']]]
+  ['matricula_0',['MATRICULA',['../class_m_a_t_r_i_c_u_l_a.html',1,'']]]
 ];
