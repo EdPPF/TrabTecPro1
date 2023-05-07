@@ -96,98 +96,133 @@ $(document).ready(function(){initNavTree('_ed_d_o_m_i_n_i_o_s_8h_source.html',''
   <div class="headertitle"><div class="title">EdDOMINIOS.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_ed_d_o_m_i_n_i_o_s_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Por: Eduardo Ferreira</span></div>
+<a href="_ed_d_o_m_i_n_i_o_s_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Por: Eduardo Ferreira (190026987)</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_m_a_t_r_i_c_u_l_a.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="class_m_a_t_r_i_c_u_l_a.html">MATRICULA</a> {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        std::string nmrMatr;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keywordtype">void</span> Validar(std::string);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keywordtype">int</span> getHash(std::string);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_a_t_r_i_c_u_l_a.html#a829782e71ade4fc7c8ac816508eca3fc">setMatricula</a>(std::string);</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_d_o_m_i_n_i_o_s.html">    9</a></span><span class="keyword">class </span><a class="code hl_class" href="class_d_o_m_i_n_i_o_s.html">DOMINIOS</a> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="class_d_o_m_i_n_i_o_s.html#a0646c5f5f5a3e648e39671fd67378b49">contem</a>(std::string ,std::string *, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_d_o_m_i_n_i_o_s.html#afee1389b63de22d0e679b0a325d71567">   33</a></span>        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_d_o_m_i_n_i_o_s.html#afee1389b63de22d0e679b0a325d71567">Validar</a>(std::string) = 0;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">/******************************************************************************************/</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_m_a_t_r_i_c_u_l_a.html#af325de64f06d6bd9360c644eb635c1ff">   43</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_m_a_t_r_i_c_u_l_a.html#af325de64f06d6bd9360c644eb635c1ff">getMatricula</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keywordflow">return</span> nmrMatr;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        }</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">/******************************************************************************************/</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_m_a_t_r_i_c_u_l_a.html">   45</a></span><span class="keyword">class </span><a class="code hl_class" href="class_m_a_t_r_i_c_u_l_a.html">MATRICULA</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_d_o_m_i_n_i_o_s.html">DOMINIOS</a> {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_m_a_t_r_i_c_u_l_a.html#a62db9dba28e892c90cc244a3b124337c">   47</a></span>        std::string <a class="code hl_variable" href="class_m_a_t_r_i_c_u_l_a.html#a62db9dba28e892c90cc244a3b124337c">nmrMatr</a>; </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_r_e_s_u_l_t_a_d_o.html">   56</a></span><span class="keyword">class </span><a class="code hl_class" href="class_r_e_s_u_l_t_a_d_o.html">RESULTADO</a> {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        std::string resultado;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">void</span> Validar(std::string);</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_r_e_s_u_l_t_a_d_o.html#a186a7d101476da1f9c453bcaace000d4">setResult</a>(std::string);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_a_t_r_i_c_u_l_a.html#a47d46485ecb3d4061be95e466cc1c5ea">Validar</a>(std::string);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_m_a_t_r_i_c_u_l_a.html#a4981f96106735dfd9e309b6d865e3cd0">getHash</a>(std::string);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="class_r_e_s_u_l_t_a_d_o.html#ac07ebe9ee07102e0cb8d4d4619d6f3e0">   81</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_r_e_s_u_l_t_a_d_o.html#ac07ebe9ee07102e0cb8d4d4619d6f3e0">getResult</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <span class="keywordflow">return</span> resultado;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        }</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>};</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="comment">/******************************************************************************************/</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="class_c_l_a_s_s_e.html">   94</a></span><span class="keyword">class </span><a class="code hl_class" href="class_c_l_a_s_s_e.html">CLASSE</a> {</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        std::string nome;</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keywordtype">bool</span> contem(std::string ,std::string *, <span class="keywordtype">int</span>); <span class="comment">// Método auxiliar para Validar.</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordtype">void</span> Validar(std::string);</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_l_a_s_s_e.html#a3972fd6dc89210f3890f226257be32e0">setNome</a>(std::string);</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="class_c_l_a_s_s_e.html#a38fb9034851f65c9c418f10bc875d0ae">  126</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_c_l_a_s_s_e.html#a38fb9034851f65c9c418f10bc875d0ae">getNome</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>            <span class="keywordflow">return</span> nome;</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        }</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>};</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="comment">/******************************************************************************************/</span></div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_m_a_t_r_i_c_u_l_a.html#a829782e71ade4fc7c8ac816508eca3fc">setMatricula</a>(std::string);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="class_m_a_t_r_i_c_u_l_a.html#af325de64f06d6bd9360c644eb635c1ff">   94</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_m_a_t_r_i_c_u_l_a.html#af325de64f06d6bd9360c644eb635c1ff">getMatricula</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_m_a_t_r_i_c_u_l_a.html#a62db9dba28e892c90cc244a3b124337c">nmrMatr</a>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        }</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>};</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="comment">/******************************************************************************************/</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="class_r_e_s_u_l_t_a_d_o.html">  107</a></span><span class="keyword">class </span><a class="code hl_class" href="class_r_e_s_u_l_t_a_d_o.html">RESULTADO</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_d_o_m_i_n_i_o_s.html">DOMINIOS</a> {</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="class_r_e_s_u_l_t_a_d_o.html#a4ad127bb69abf5073b0c0072cff0f575">  109</a></span>        std::string <a class="code hl_variable" href="class_r_e_s_u_l_t_a_d_o.html#a4ad127bb69abf5073b0c0072cff0f575">resultado</a>; </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_r_e_s_u_l_t_a_d_o.html#aaac04c7bdb26e54572d9dd89ffb19606">Validar</a>(std::string);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_r_e_s_u_l_t_a_d_o.html#a186a7d101476da1f9c453bcaace000d4">setResult</a>(std::string);</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="class_t_e_l_e_f_o_n_e.html">  139</a></span><span class="keyword">class </span><a class="code hl_class" href="class_t_e_l_e_f_o_n_e.html">TELEFONE</a> {</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>        std::string numeroTel;</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        <span class="keywordtype">void</span> Validar(std::string);</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        <span class="comment">// Métodos auxiliares para validação de número:</span></div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        <span class="keywordtype">bool</span> comecaComMais(std::string);</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        <span class="keywordtype">bool</span> digitoNumerico(std::string);</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        <span class="keywordtype">bool</span> tamanhoTelefone(std::string);</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#ab6ab5cdc119751f671d5eb64f44043d4">setTel</a>(std::string);</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="class_t_e_l_e_f_o_n_e.html#a67febee5c5aae8f81ebf9d60f29441dc">  174</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#a67febee5c5aae8f81ebf9d60f29441dc">getTel</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>            <span class="keywordflow">return</span> numeroTel;</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        }</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>};</div>
-<div class="ttc" id="aclass_c_l_a_s_s_e_html"><div class="ttname"><a href="class_c_l_a_s_s_e.html">CLASSE</a></div><div class="ttdoc">Clsse representativa dos tipos de teste.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:94</div></div>
-<div class="ttc" id="aclass_c_l_a_s_s_e_html_a38fb9034851f65c9c418f10bc875d0ae"><div class="ttname"><a href="class_c_l_a_s_s_e.html#a38fb9034851f65c9c418f10bc875d0ae">CLASSE::getNome</a></div><div class="ttdeci">std::string getNome() const</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:126</div></div>
-<div class="ttc" id="aclass_c_l_a_s_s_e_html_a3972fd6dc89210f3890f226257be32e0"><div class="ttname"><a href="class_c_l_a_s_s_e.html#a3972fd6dc89210f3890f226257be32e0">CLASSE::setNome</a></div><div class="ttdeci">void setNome(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:77</div></div>
-<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html">MATRICULA</a></div><div class="ttdoc">Classe representativa do número de matrícula do usuário.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:12</div></div>
-<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_a829782e71ade4fc7c8ac816508eca3fc"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#a829782e71ade4fc7c8ac816508eca3fc">MATRICULA::setMatricula</a></div><div class="ttdeci">void setMatricula(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:32</div></div>
-<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_af325de64f06d6bd9360c644eb635c1ff"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#af325de64f06d6bd9360c644eb635c1ff">MATRICULA::getMatricula</a></div><div class="ttdeci">std::string getMatricula() const</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:43</div></div>
-<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html">RESULTADO</a></div><div class="ttdoc">Classe representativa dos resultados dos casos de teste.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:56</div></div>
-<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html_a186a7d101476da1f9c453bcaace000d4"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html#a186a7d101476da1f9c453bcaace000d4">RESULTADO::setResult</a></div><div class="ttdeci">void setResult(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:46</div></div>
-<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html_ac07ebe9ee07102e0cb8d4d4619d6f3e0"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html#ac07ebe9ee07102e0cb8d4d4619d6f3e0">RESULTADO::getResult</a></div><div class="ttdeci">std::string getResult() const</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:81</div></div>
-<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html">TELEFONE</a></div><div class="ttdoc">Classe representativa do número de telefone do usuário.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:139</div></div>
-<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_a67febee5c5aae8f81ebf9d60f29441dc"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#a67febee5c5aae8f81ebf9d60f29441dc">TELEFONE::getTel</a></div><div class="ttdeci">std::string getTel() const</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:174</div></div>
-<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_ab6ab5cdc119751f671d5eb64f44043d4"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#ab6ab5cdc119751f671d5eb64f44043d4">TELEFONE::setTel</a></div><div class="ttdeci">void setTel(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:121</div></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="class_r_e_s_u_l_t_a_d_o.html#ac07ebe9ee07102e0cb8d4d4619d6f3e0">  140</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_r_e_s_u_l_t_a_d_o.html#ac07ebe9ee07102e0cb8d4d4619d6f3e0">getResult</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_r_e_s_u_l_t_a_d_o.html#a4ad127bb69abf5073b0c0072cff0f575">resultado</a>;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        }</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>};</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="comment">/******************************************************************************************/</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="class_c_l_a_s_s_e.html">  153</a></span><span class="keyword">class </span><a class="code hl_class" href="class_c_l_a_s_s_e.html">CLASSE</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_d_o_m_i_n_i_o_s.html">DOMINIOS</a> {</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="class_c_l_a_s_s_e.html#ab30352d2c8a8281a69caad54aa5decb2">  155</a></span>        std::string <a class="code hl_variable" href="class_c_l_a_s_s_e.html#ab30352d2c8a8281a69caad54aa5decb2">nome</a>; </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_l_a_s_s_e.html#a4f30c50d8c9f4ae9df03cb286a9f481a">Validar</a>(std::string);</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_c_l_a_s_s_e.html#a3972fd6dc89210f3890f226257be32e0">setNome</a>(std::string);</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno"><a class="line" href="class_c_l_a_s_s_e.html#a38fb9034851f65c9c418f10bc875d0ae">  188</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_c_l_a_s_s_e.html#a38fb9034851f65c9c418f10bc875d0ae">getNome</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_c_l_a_s_s_e.html#ab30352d2c8a8281a69caad54aa5decb2">nome</a>;</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>        }</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>};</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="comment">/******************************************************************************************/</span></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="class_t_e_l_e_f_o_n_e.html">  201</a></span><span class="keyword">class </span><a class="code hl_class" href="class_t_e_l_e_f_o_n_e.html">TELEFONE</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_d_o_m_i_n_i_o_s.html">DOMINIOS</a> {</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno"><a class="line" href="class_t_e_l_e_f_o_n_e.html#ab69f79ed20c5c486ea18c6115d5f5a5b">  203</a></span>        std::string <a class="code hl_variable" href="class_t_e_l_e_f_o_n_e.html#ab69f79ed20c5c486ea18c6115d5f5a5b">numeroTel</a>; </div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#a1366a6b7c0131564959174ef45eed51a">comecaComMais</a>(std::string);</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#a12e12923b47463a3dd37ee7b8f58fe20">digitoNumerico</a>(std::string);</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#ad86ead87bde522571c8c14f8f87c6bed">tamanhoTelefone</a>(std::string);</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#a1e455969d4194c76e695ccf00aa0cb47">Validar</a>(std::string);</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#ab6ab5cdc119751f671d5eb64f44043d4">setTel</a>(std::string);</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno"><a class="line" href="class_t_e_l_e_f_o_n_e.html#a67febee5c5aae8f81ebf9d60f29441dc">  278</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#a67febee5c5aae8f81ebf9d60f29441dc">getTel</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_t_e_l_e_f_o_n_e.html#ab69f79ed20c5c486ea18c6115d5f5a5b">numeroTel</a>;</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        }</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>};</div>
+<div class="ttc" id="aclass_c_l_a_s_s_e_html"><div class="ttname"><a href="class_c_l_a_s_s_e.html">CLASSE</a></div><div class="ttdoc">Clsse representativa dos tipos de teste.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:153</div></div>
+<div class="ttc" id="aclass_c_l_a_s_s_e_html_a38fb9034851f65c9c418f10bc875d0ae"><div class="ttname"><a href="class_c_l_a_s_s_e.html#a38fb9034851f65c9c418f10bc875d0ae">CLASSE::getNome</a></div><div class="ttdeci">std::string getNome() const</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:188</div></div>
+<div class="ttc" id="aclass_c_l_a_s_s_e_html_a3972fd6dc89210f3890f226257be32e0"><div class="ttname"><a href="class_c_l_a_s_s_e.html#a3972fd6dc89210f3890f226257be32e0">CLASSE::setNome</a></div><div class="ttdeci">void setNome(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:70</div></div>
+<div class="ttc" id="aclass_c_l_a_s_s_e_html_a4f30c50d8c9f4ae9df03cb286a9f481a"><div class="ttname"><a href="class_c_l_a_s_s_e.html#a4f30c50d8c9f4ae9df03cb286a9f481a">CLASSE::Validar</a></div><div class="ttdeci">void Validar(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:63</div></div>
+<div class="ttc" id="aclass_c_l_a_s_s_e_html_ab30352d2c8a8281a69caad54aa5decb2"><div class="ttname"><a href="class_c_l_a_s_s_e.html#ab30352d2c8a8281a69caad54aa5decb2">CLASSE::nome</a></div><div class="ttdeci">std::string nome</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:155</div></div>
+<div class="ttc" id="aclass_d_o_m_i_n_i_o_s_html"><div class="ttname"><a href="class_d_o_m_i_n_i_o_s.html">DOMINIOS</a></div><div class="ttdoc">Classe base das quais herdam todos os Domínios.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:9</div></div>
+<div class="ttc" id="aclass_d_o_m_i_n_i_o_s_html_a0646c5f5f5a3e648e39671fd67378b49"><div class="ttname"><a href="class_d_o_m_i_n_i_o_s.html#a0646c5f5f5a3e648e39671fd67378b49">DOMINIOS::contem</a></div><div class="ttdeci">bool contem(std::string, std::string *, int)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:9</div></div>
+<div class="ttc" id="aclass_d_o_m_i_n_i_o_s_html_afee1389b63de22d0e679b0a325d71567"><div class="ttname"><a href="class_d_o_m_i_n_i_o_s.html#afee1389b63de22d0e679b0a325d71567">DOMINIOS::Validar</a></div><div class="ttdeci">virtual void Validar(std::string)=0</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html">MATRICULA</a></div><div class="ttdoc">Classe representativa do número de matrícula do usuário.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:45</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_a47d46485ecb3d4061be95e466cc1c5ea"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#a47d46485ecb3d4061be95e466cc1c5ea">MATRICULA::Validar</a></div><div class="ttdeci">void Validar(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:29</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_a4981f96106735dfd9e309b6d865e3cd0"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#a4981f96106735dfd9e309b6d865e3cd0">MATRICULA::getHash</a></div><div class="ttdeci">int getHash(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:21</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_a62db9dba28e892c90cc244a3b124337c"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#a62db9dba28e892c90cc244a3b124337c">MATRICULA::nmrMatr</a></div><div class="ttdeci">std::string nmrMatr</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:47</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_a829782e71ade4fc7c8ac816508eca3fc"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#a829782e71ade4fc7c8ac816508eca3fc">MATRICULA::setMatricula</a></div><div class="ttdeci">void setMatricula(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:40</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_af325de64f06d6bd9360c644eb635c1ff"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#af325de64f06d6bd9360c644eb635c1ff">MATRICULA::getMatricula</a></div><div class="ttdeci">std::string getMatricula() const</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:94</div></div>
+<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html">RESULTADO</a></div><div class="ttdoc">Classe representativa dos resultados dos casos de teste.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:107</div></div>
+<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html_a186a7d101476da1f9c453bcaace000d4"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html#a186a7d101476da1f9c453bcaace000d4">RESULTADO::setResult</a></div><div class="ttdeci">void setResult(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:54</div></div>
+<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html_a4ad127bb69abf5073b0c0072cff0f575"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html#a4ad127bb69abf5073b0c0072cff0f575">RESULTADO::resultado</a></div><div class="ttdeci">std::string resultado</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:109</div></div>
+<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html_aaac04c7bdb26e54572d9dd89ffb19606"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html#aaac04c7bdb26e54572d9dd89ffb19606">RESULTADO::Validar</a></div><div class="ttdeci">void Validar(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:48</div></div>
+<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html_ac07ebe9ee07102e0cb8d4d4619d6f3e0"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html#ac07ebe9ee07102e0cb8d4d4619d6f3e0">RESULTADO::getResult</a></div><div class="ttdeci">std::string getResult() const</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:140</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html">TELEFONE</a></div><div class="ttdoc">Classe representativa do número de telefone do usuário.</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:201</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_a12e12923b47463a3dd37ee7b8f58fe20"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#a12e12923b47463a3dd37ee7b8f58fe20">TELEFONE::digitoNumerico</a></div><div class="ttdeci">bool digitoNumerico(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:84</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_a1366a6b7c0131564959174ef45eed51a"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#a1366a6b7c0131564959174ef45eed51a">TELEFONE::comecaComMais</a></div><div class="ttdeci">bool comecaComMais(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:78</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_a1e455969d4194c76e695ccf00aa0cb47"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#a1e455969d4194c76e695ccf00aa0cb47">TELEFONE::Validar</a></div><div class="ttdeci">void Validar(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:96</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_a67febee5c5aae8f81ebf9d60f29441dc"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#a67febee5c5aae8f81ebf9d60f29441dc">TELEFONE::getTel</a></div><div class="ttdeci">std::string getTel() const</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:278</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_ab69f79ed20c5c486ea18c6115d5f5a5b"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#ab69f79ed20c5c486ea18c6115d5f5a5b">TELEFONE::numeroTel</a></div><div class="ttdeci">std::string numeroTel</div><div class="ttdef"><b>Definition:</b> EdDOMINIOS.h:203</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_ab6ab5cdc119751f671d5eb64f44043d4"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#ab6ab5cdc119751f671d5eb64f44043d4">TELEFONE::setTel</a></div><div class="ttdeci">void setTel(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:114</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_ad86ead87bde522571c8c14f8f87c6bed"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#ad86ead87bde522571c8c14f8f87c6bed">TELEFONE::tamanhoTelefone</a></div><div class="ttdeci">bool tamanhoTelefone(std::string)</div><div class="ttdef"><b>Definition:</b> EdIMPLEMENTACAO.cpp:90</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
