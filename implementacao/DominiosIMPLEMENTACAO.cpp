@@ -37,7 +37,11 @@ void MATRICULA::Validar(std::string matric) {
     }
 }
 
-void MATRICULA::setMatricula(std::string nmrMatr) {
+//void MATRICULA::setMatricula(std::string nmrMatr) {
+//    Validar(nmrMatr);
+//    this -> nmrMatr = nmrMatr;
+//}
+void MATRICULA::setValor(std::string nmrMatr) {
     Validar(nmrMatr);
     this -> nmrMatr = nmrMatr;
 }
@@ -51,9 +55,12 @@ void RESULTADO::Validar(std::string resultado) {
     }
 }
 
-void RESULTADO::setResult(std::string resultado) {
+//void RESULTADO::setResult(std::string resultado) {
+//    Validar(resultado);
+//    this -> resultado = resultado;
+//}
+void RESULTADO::setValor(std::string resultado) {
     Validar(resultado);
-    // Se o método acima não lancar exceção, a linha abaixo será processada.
     this -> resultado = resultado;
 }
 
@@ -67,7 +74,11 @@ void CLASSE::Validar(std::string tipo) {
     }
 }
 
-void CLASSE::setNome(std::string nome) {
+//void CLASSE::setNome(std::string nome) {
+//    Validar(nome);
+//    this -> nome = nome;
+//}
+void CLASSE::setValor(std::string nome) {
     Validar(nome);
     this -> nome = nome;
 }
@@ -111,7 +122,11 @@ void TELEFONE::Validar(std::string numeroTel) {
     }
 }
 
-void TELEFONE::setTel(std::string numeroTel) {
+//void TELEFONE::setTel(std::string numeroTel) {
+//    Validar(numeroTel);
+//    this -> numeroTel = numeroTel;
+//}
+void TELEFONE::setValor(std::string numeroTel) {
     Validar(numeroTel);
     this -> numeroTel = numeroTel;
 }
@@ -150,7 +165,11 @@ void CODIGO::Validar(std::string cod){
     }
 }
 
-void CODIGO::setCodigo(std::string codigo){
+//void CODIGO::setCodigo(std::string codigo){
+//    Validar(codigo);
+//    this -> codigo = codigo;
+//}
+void CODIGO::setValor(std::string codigo){
     Validar(codigo);
     this -> codigo = codigo;
 }
@@ -245,7 +264,11 @@ void DATA::Validar(std::string data){
     }
 }
 
-void DATA::setData(std::string data){
+//void DATA::setData(std::string data){
+//    Validar(data);
+//    this -> data = data;
+//}
+void DATA::setValor(std::string data){
     Validar(data);
     this -> data = data;
 }
@@ -287,7 +310,11 @@ void SENHA::Validar(std::string senha){
     }
 }
 
-void SENHA::setSenha(std::string senha){
+//void SENHA::setSenha(std::string senha){
+//    Validar(senha);
+//    this->senha = senha;
+//}
+void SENHA::setValor(std::string senha){
     Validar(senha);
     this->senha = senha;
 }
@@ -332,7 +359,11 @@ void TEXTO::Validar(std::string texto){
     }
 }
 
-void TEXTO::setTexto(std::string texto){
+//void TEXTO::setTexto(std::string texto){
+//    Validar(texto);
+//    this -> texto = texto;
+//}
+void TEXTO::setValor(std::string texto){
     Validar(texto);
     this -> texto = texto;
 }

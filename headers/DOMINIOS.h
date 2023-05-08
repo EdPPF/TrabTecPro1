@@ -1,5 +1,6 @@
 // Por: Eduardo Ferreira (190026987)
 
+#pragma once
 #include <string>
 
 /// Classe base das quais herdam todos os Domínios.
@@ -31,6 +32,24 @@ class DOMINIOS {
         //! Método virtual puro, sem implementação.
         /// -----------------------------------------
         virtual void Validar(std::string) = 0;
+
+        //! Método virtual destrutor.
+        /// -------------------------
+        virtual ~DOMINIOS() {}
+
+        //! Método virtual puro de retorno de valor.
+        /// -----------------------------------
+        /** Este método é redefinido nas classes derivadas, de modo a retornar o atributo adequado
+        *   para cada classe.
+        */
+        virtual std::string getValor() = 0;
+
+        //! Método virtual puro de atribuição de valor.
+        /// --------------------------------------
+        /** Este método é redefinido nas classes derivadas, de modo a atribuir para o devido
+        *   atributo da classe um valor adequado.
+        */
+        virtual void setValor(std::string) = 0;
 };
 
 /******************************************************************************************/
@@ -84,16 +103,18 @@ class MATRICULA : public DOMINIOS {
         /*!
             \param nmrMatr Uma *string* que representa o valor do número da Matrícula.
         */
-        void setMatricula(std::string);
+        //void setMatricula(std::string);
+        void setValor(std::string nmrMatr);
 
         //! Método inline que retorna o valor da Matrícula.
         /// -----------------------------------------------
         /*!
             \return O número da Matrícula.
         */
-        inline std::string getMatricula() const {
-            return nmrMatr;
-        }
+        inline std::string getValor() {return nmrMatr;}
+//        inline std::string getMatricula() const {
+//            return nmrMatr;
+//        }
 };
 
 /******************************************************************************************/
@@ -130,16 +151,20 @@ class RESULTADO : public DOMINIOS {
         /*!
             \param resultado Uma *string* que representa o resultado do teste.
         */
-        void setResult(std::string);
+        //void setResult(std::string);
+        void setValor(std::string);
 
         //! Método inline que retorna o valor do resultado.
         /// -----------------------------------------------
         /*!
             \return O valor do resultado.
         */
-        inline std::string getResult() const {
+        inline std::string getValor() {
             return resultado;
         }
+//        inline std::string getResult() const {
+//            return resultado;
+//        }
 };
 
 /******************************************************************************************/
@@ -178,16 +203,20 @@ class CLASSE : public DOMINIOS {
         /*!
             \param nome Uma *string* que representa o nome do teste.
         */
-        void setNome(std::string);
+        //void setNome(std::string);
+        void setValor(std::string);
 
         //! Método inline que retorna o tipo de teste realizado.
         /// ----------------------------------------------------
         /*!
             \return O nome do teste.
         */
-        inline std::string getNome() const {
+        inline std::string getValor() {
             return nome;
         }
+//        inline std::string getNome() const {
+//            return nome;
+//        }
 };
 
 /******************************************************************************************/
@@ -268,16 +297,20 @@ class TELEFONE : public DOMINIOS {
         /*!
             \param numeroTel Uma *string* que representa o número de telefone do usuário.
         */
-        void setTel(std::string);
+        //void setTel(std::string);
+        void setValor(std::string);
 
         //! Método inline que retorna o número de telefone.
         /// -----------------------------------------------
         /*!
             \return O número de telefone.
         */
-        inline std::string getTel() const {
+        inline std::string getValor() {
             return numeroTel;
         }
+//        inline std::string getTel() const {
+//            return numeroTel;
+//        }
 };
 
 
@@ -341,16 +374,20 @@ class CODIGO : public DOMINIOS {
         /*!
             \param codigo Uma *string* que representa o código.
         */
-        void setCodigo(std::string);
+        //void setCodigo(std::string);
+        void setValor(std::string);
 
         //! Método inline que retorna o valor do código.
         /// --------------------------------------------
         /*!
             \return O valor do código.
         */
-        inline std::string getCodigo() const {
+        inline std::string getValor() {
             return codigo;
         }
+//        inline std::string getCodigo() const {
+//            return codigo;
+//        }
 };
 
 /******************************************************************************************/
@@ -456,16 +493,20 @@ class DATA : public DOMINIOS {
         /*!
             \param data Uma *string* que representa a data.
         */
-        void setData(std::string);
+        //void setData(std::string);
+        void setValor(std::string);
 
         //! Método inline que retorna a data.
         /// ---------------------------------
         /*!
             \return A data.
         */
-        inline std::string getData() const {
+        inline std::string getValor() {
             return data;
         }
+//        inline std::string getData() const {
+//            return data;
+//        }
 
 
 };
@@ -531,16 +572,20 @@ class SENHA : public DOMINIOS {
         /*!
             \param senha Uma *string* que representa a senha do usuário.
         */
-        void setSenha(std::string);
+        //void setSenha(std::string);
+        void setValor(std::string);
 
         //! Método inline que retorna a senha.
         /// ----------------------------------
         /*!
             \return A senha.
         */
-        inline std::string getSenha() const {
+        inline std::string getValor() {
             return senha;
         }
+//        inline std::string getSenha() const {
+//            return senha;
+//        }
 };
 
 /******************************************************************************************/
@@ -613,15 +658,19 @@ class TEXTO : public DOMINIOS {
         /*!
             \param texto Uma *string* que representa o texto escrito.
         */
-        void setTexto(std::string);
+        //void setTexto(std::string);
+        void setValor(std::string);
 
         //! Método inline que retorna o texto.
         /// ----------------------------------
         /*!
             \return O texto.
         */
-        inline std::string getTexto() const {
+        inline std::string getValor() {
             return texto;
         }
+//        inline std::string getTexto() const {
+//            return texto;
+//        }
 };
 

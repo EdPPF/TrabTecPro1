@@ -52,7 +52,7 @@
 	<string>
 	"../Eduardo/EdDOMINIOS.h"
 
-1683298036 c:\trab01tecpro\headers\dominios.h
+1683574520 c:\trab01tecpro\headers\dominios.h
 	<string>
 
 1683299142 source:c:\trab01tecpro\implementacao\dominiosimplementacao.cpp
@@ -60,4 +60,11 @@
 	<stdexcept>
 	<string>
 	<regex>
+
+1683299159 source:c:\trab01tecpro\implementacao\entidadesimplementacao.cpp
+	"../headers/ENTIDADES.h"
+
+1683574520 c:\trab01tecpro\headers\entidades.h
+	"./DOMINIOS.h"
+	<string>
 

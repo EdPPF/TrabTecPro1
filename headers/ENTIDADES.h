@@ -1,5 +1,6 @@
 // Por: Eduardo Ferreira (190026987)
 
+#pragma once
 #include "./DOMINIOS.h"
 #include <string>
 
@@ -29,7 +30,8 @@ class Desenvolvedor {
             \param novaMatricula Uma *string* que representa o valor do número da Matrícula.
         */
         inline void setMatrDev(std::string novaMatricula){
-            matricula.setMatricula(novaMatricula);
+            //matricula.setMatricula(novaMatricula);
+            matricula.setValor(novaMatricula);
         }
 
         //! Método inline que modifica o valor do nome do Desenvolvedor.
@@ -40,7 +42,8 @@ class Desenvolvedor {
             \param novoNome Uma *string* que representa o nome do Desenvolvedor.
         */
         inline void setNomeDev(std::string novoNome){
-            nome.setTexto(novoNome);
+            //nome.setTexto(novoNome);
+            nome.setValor(novoNome);
         }
 
         //! Método inline que modifica a senha do Desenvolvedor.
@@ -51,7 +54,8 @@ class Desenvolvedor {
             \param novaSenha Uma *string* que representa a senha do Desenvolvedor.
         */
         inline void setSenhaDev(std::string novaSenha) {
-            senha.setSenha(novaSenha);
+            //senha.setSenha(novaSenha);
+            senha.setValor(novaSenha);
         }
 
         //! Método inline que modifica o telefone do Desenvolvedor.
@@ -62,7 +66,8 @@ class Desenvolvedor {
             \param novoTelefone Uma *string* que representa o telefone do Desenvolvedor.
         */
         inline void setTelDev(std::string novoTelefone) {
-            telefone.setTel(novoTelefone);
+            //telefone.setTel(novoTelefone);
+            telefone.setValor(novoTelefone);
         }
 
 
@@ -72,7 +77,8 @@ class Desenvolvedor {
             \return O número da matrícula.
         */
         inline std::string getMatrDev() {
-            return matricula.getMatricula();
+            //return matricula.getMatricula();
+            return matricula.getValor();
         }
 
         //! Método inline que retorna o nome do Desenvolvedor.
@@ -81,7 +87,8 @@ class Desenvolvedor {
             \return O nome do Desenvolvedor.
         */
         inline std::string getNomeDev() {
-            return nome.getTexto();
+            //return nome.getTexto();
+            return nome.getValor();
         }
 
         //! Método inline que retorna a senha do Desenvolvedor.
@@ -90,7 +97,8 @@ class Desenvolvedor {
             \return A senha do Desenvolvedor.
         */
         inline std::string getSenhaDev() {
-            return senha.getSenha();
+            //return senha.getSenha();
+            return senha.getValor();
         }
 
         //! Método inline que retorna o telefone do Desenvolvedor.
@@ -99,7 +107,8 @@ class Desenvolvedor {
             \return O telefone do Desenvolvedor.
         */
         inline std::string getTelDev() {
-            return telefone.getTel();
+            //return telefone.getTel();
+            return telefone.getValor();
         }
 };
 
@@ -127,7 +136,8 @@ class Testes {
             \param novoCodigo Uma *string* que representa o código do Teste.
         */
         inline void setCodigoTeste(std::string novoCodigo){
-            codigo.setCodigo(novoCodigo);
+            //codigo.setCodigo(novoCodigo);
+            codigo.setValor(novoCodigo);
         }
 
         //! Método inline que modifica o texto associado ao Teste.
@@ -138,7 +148,8 @@ class Testes {
             \param novoTexto Uma *string* que representa o texto associado ao Teste.
         */
         inline void setTextoTeste(std::string novoTexto) {
-            texto.setTexto(novoTexto);
+            //texto.setTexto(novoTexto);
+            texto.setValor(novoTexto);
         }
 
         //! Método inline que modifica a classe do Teste.
@@ -149,7 +160,8 @@ class Testes {
             \param novaClasse Uma *string* que representa a classe do Teste.
         */
         inline void setClasseTeste(std::string novaClasse) {
-            classe.setNome(novaClasse);
+            //classe.setNome(novaClasse);
+            classe.setValor(novaClasse);
         }
 
 
@@ -159,7 +171,8 @@ class Testes {
             \return O código do Teste.
         */
         inline std::string getCodigoTeste() {
-            return codigo.getCodigo();
+            //return codigo.getCodigo();
+            return codigo.getValor();
         }
 
         //! Método inline que retorna o texto associado ao Teste.
@@ -168,7 +181,8 @@ class Testes {
             \return O texto associado ao Teste.
         */
         inline std::string getTextoTeste() {
-            return texto.getTexto();
+            //return texto.getTexto();
+            return texto.getValor();
         }
 
         //! Método inline que retorna a classe do Teste.
@@ -177,7 +191,8 @@ class Testes {
             \return A classe do Teste.
         */
         inline std::string getClasseTeste() {
-            return classe.getNome();
+            //return classe.getNome();
+            return classe.getValor();
         }
 };
 
@@ -213,7 +228,8 @@ class CasoDeTeste {
             \param novoCodigo Uma *string* que representa o código do Caso de Teste.
         */
         inline void setCasoCodigo(std::string novoCodigo) {
-            codigo.setCodigo(novoCodigo);
+            //codigo.setCodigo(novoCodigo);
+            codigo.setValor(novoCodigo);
         }
 
         //! Método inline que modifica o nome do Caso de Teste.
@@ -224,7 +240,8 @@ class CasoDeTeste {
             \param novoNome Uma *string* que representa o nome do Caso de Teste.
         */
         inline void setCasoNome(std::string novoNome) {
-            nome.setTexto(novoNome);
+            //nome.setTexto(novoNome);
+            nome.setValor(novoNome);
         }
 
         //! Método inline que modifica a data do Caso de Teste.
@@ -235,7 +252,8 @@ class CasoDeTeste {
             \param novaData Uma *string* que representa a data do Caso de Teste.
         */
         inline void setCasoData(std::string novaData) {
-            data.setData(novaData);
+            //data.setData(novaData);
+            data.setValor(novaData);
         }
 
         //! Método inline que modifica a ação do Caso de Teste.
@@ -246,7 +264,8 @@ class CasoDeTeste {
             \param novaAcao Uma *string* que representa a ação do Caso de Teste.
         */
         inline void setCasoAcao(std::string novaAcao) {
-            acao.setTexto(novaAcao);
+            //acao.setTexto(novaAcao);
+            acao.setValor(novaAcao);
         }
 
         //! Método inline que modifica a respsota do Caso de Teste.
@@ -257,7 +276,8 @@ class CasoDeTeste {
             \param novaResposta Uma *string* que representa a resposta do Caso de Teste.
         */
         inline void setCasoResposta(std::string novaResposta) {
-            resposta.setTexto(novaResposta);
+            //resposta.setTexto(novaResposta);
+            resposta.setValor(novaResposta);
         }
 
         //! Método inline que modifica o resultado do Caso de Teste.
@@ -268,7 +288,8 @@ class CasoDeTeste {
             \param novoResultado Uma *string* que representa o resultado do Caso de Teste.
         */
         inline void setCasoResult(std::string novoResultado) {
-            resultado.setResult(novoResultado);
+            //resultado.setResult(novoResultado);
+            resultado.setValor(novoResultado);
         }
 
 
@@ -278,7 +299,8 @@ class CasoDeTeste {
             \return O código do Caso de Teste.
         */
         inline std::string getCasoCodigo() {
-            return codigo.getCodigo();
+            //return codigo.getCodigo();
+            return codigo.getValor();
         }
 
         //! Método inline que retorna o nome do Caso de Teste.
@@ -287,7 +309,8 @@ class CasoDeTeste {
             \return O nome do Caso de Teste.
         */
         inline std::string getCasoNome() {
-            return nome.getTexto();
+            //return nome.getTexto();
+            return nome.getValor();
         }
 
         //! Método inline que retorna a data do Caso de Teste.
@@ -296,7 +319,8 @@ class CasoDeTeste {
             \return A data do Caso de Teste.
         */
         inline std::string getCasoData() {
-            return data.getData();
+            //return data.getData();
+            return data.getValor();
         }
 
         //! Método inline que retorna a ação do Caso de Teste.
@@ -305,7 +329,8 @@ class CasoDeTeste {
             \return A ação do Caso de Teste.
         */
         inline std::string getCasoAcao() {
-            return acao.getTexto();
+            //return acao.getTexto();
+            return acao.getValor();
         }
 
         //! Método inline que retorna a resposta do Caso de Teste.
@@ -314,7 +339,8 @@ class CasoDeTeste {
             \return A resposta do Caso de Teste.
         */
         inline std::string getCasoResposta() {
-            return resposta.getTexto();
+            //return resposta.getTexto();
+            return resposta.getValor();
         }
 
         //! Método inline que retorna o resultado do Caso de Teste.
@@ -323,6 +349,7 @@ class CasoDeTeste {
             \return O resultado do Caso de Teste.
         */
         inline std::string getCasoResult() {
-            return resultado.getResult();
+            //return resultado.getResult();
+            return resultado.getValor();
         }
 };

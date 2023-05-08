@@ -1,113 +1,141 @@
 
-#include "./headers/DOMINIOS.h"
+#include "./headers/TesteDOMINIOS.h"
+#include "./headers/TesteENTIDADES.h"
 
 #include <iostream>
 #include <string>
-#include <cctype>
-#include <regex>
 
 using namespace std;
 
 int main() {
 
-//    DATA data;
-//    data.setData("02/FEV/2023");
-//    cout << "A data atual eh: " << data.getData() << endl;
+    TesteMATRICULA TUM;
+    switch(TUM.run()) {
+        case TesteMATRICULA::SUCESSO:
+            cout << "\nTeste de Caso Valido da Matricula: Sucesso\n  " << endl;
+            //break;
+        case TesteMATRICULA::FALHA:
+            cout << "Teste de Caso Invalido da Matricula: Sucesso.\nErro Esperado:\n" << TUM.mensagemExcept <<
+            " -> " << TUM.MATRInvalida << "\n" << endl;
+            break;
+    }
 
     ////////////////////////////////
 
-//    SENHA senha;
-//    senha.setSenha("J@n123");
-//    cout << "Senha colocada: " << senha.getSenha() << endl;
-
-//    int tamanho = senha.length();
-//    std::string copia = senha;
-//    std::string letra;
-//    for (int i = 0; i < tamanho; i++) {
-//        letra = senha[i];
-//        copia.erase(copia.begin());
-//        if (copia.find(letra) != std::string::npos) {
-//            cout << letra << " ->Duplicada: " << copia << endl;
-//        }
-//    }
+    TesteRESULTADO TUR;
+    switch(TUR.run()) {
+        case TesteRESULTADO::SUCESSO:
+            cout << "\nTeste de Caso Valido do Resultado: Sucesso\n  " << endl;
+            //break;
+        case TesteRESULTADO::FALHA:
+            cout << "Teste de Caso Invalido do Resultado: Sucesso.\nErro Esperado:\n" << TUR.mensagemExcept <<
+            " -> " << TUR.RESInvalido << "\n" << endl;
+            break;
+    }
 
     ////////////////////////////////
 
-//    TEXTO texto;
-//    texto.setTexto("Joaozin123");
-//    cout << "Texto do texto testo: " << texto.getTexto() << endl;
+    TesteCLASSE TUCl;
+    switch(TUCl.run()) {
+        case TesteCLASSE::SUCESSO:
+            cout << "\nTeste de Caso Valido da Classe: Sucesso\n  " << endl;
+            //break;
+        case TesteRESULTADO::FALHA:
+            cout << "Teste de Caso Invalido da Classe: Sucesso.\nErro Esperado:\n" << TUCl.mensagemExcept <<
+            " -> " << TUCl.CLASSInvalida << "\n" << endl;
+            break;
+    }
 
     ////////////////////////////////
 
-//    CODIGO code;
-//    code.setCodigo("MnM069");
-//    cout << "O codigo eh: " << code.getCodigo() << endl;
-
-//    regex reg("[A-Za-z\\d\\.\\,\\;\\?\\!\\:\\-\\@\\#\\$\\%\\&]+"); // XXXXXX
-//    string pal = "MnM0069).,;?!:-@#$%&";
-//    cout << regex_search(pal, reg);
-
-    ////////////////////////////////
-
-//    MATRICULA fulano("1900268");
-//    cout << "Testando o metodo setMatricula():\nA matricula atual eh " << fulano.getMatricula() << endl;
-//    fulano.setMatricula("1234561");
-//    cout << "Nova matricula:\n" << fulano.getMatricula() << endl;
-//
-//    MATRICULA edppf("1900268");
-//    cout << "\nEste numero de matricula eh valido de acordo com o construtor: " << edppf.getMatricula() << endl;
-//    cout << "Entretanto, 1900267 não eh. Veja a excessao sendo lancada:\n";
-//    MATRICULA dois("1900267");
+    TesteTELEFONE TUTel;
+    switch(TUTel.run()) {
+        case TesteTELEFONE::SUCESSO:
+            cout << "\nTeste de Caso Valido do Telefone: Sucesso\n  " << endl;
+            //break;
+        case TesteTELEFONE::FALHA:
+            cout << "Teste de Caso Invalido do Telefone: Sucesso.\nErro Esperado:\n" << TUTel.mensagemExcept <<
+            " -> " << TUTel.TELInvalido << "\n" << endl;
+            break;
+    }
 
     ////////////////////////////////
 
-//    TELEFONE tel;
-//    tel.setTel("+456789abc");
-//
-//    string numero = "+123654abc";
-//    regex obj("^\\+");
-//    regex obj2("^\\+\\d+");
-//    regex obj3("^\\+\\d{7,15}");
-//
-//    cout<<"Inicia com +: "<<regex_search(numero, obj);
-//    cout<<"\nInicia com + e possui somente digitos: "<<regex_search(numero, obj2);
-//    cout<<"\nInicia com + e possui de 7 a 15 chars: "<<regex_search(numero, obj3);
-    std::regex regexObj("^\\+\\d{7,15}");
-    string pal = "+45566128910131517";
-    cout << std::regex_search(pal, regexObj) << endl;
-    cout << std::regex_match(pal, regexObj);
+    TesteCODIGO TUCo;
+    switch(TUCo.run()) {
+        case TesteCODIGO::SUCESSO:
+            cout << "\nTeste de Caso Valido do Codigo: Sucesso\n  " << endl;
+            //break;
+        case TesteCODIGO::FALHA:
+            cout << "Teste de Caso Invalido do Codigo: Sucesso.\nErro Esperado:\n" << TUCo.mensagemExcept <<
+            " -> " << TUCo.CODEInvalido << "\n" << endl;
+            break;
+    }
 
     ////////////////////////////////
 
-//    RESULTADO resu;
-//    resu.setResult("APROVADO");
-//
-//    CLASSE noome;
-//    noome.setNome("UNIDADE");
-//
-//    cout << "Nome RESULTADO: " << resu.getResult();
-//    cout << "\nNome CLASSE: " << noome.getNome() << endl;
+    TesteDATA TUD;
+    switch(TUD.run()) {
+        case TesteDATA::SUCESSO:
+            cout << "\nTeste de Caso Valido da Data: Sucesso\n  " << endl;
+            //break;
+        case TesteDATA::FALHA:
+            cout << "Teste de Caso Invalido da Data: Sucesso.\nErro Esperado:\n" << TUD.mensagemExcept <<
+            " -> " << TUD.DATAInvalida << "\n" << endl;
+            break;
+    }
 
     ////////////////////////////////
 
-//    Desenvolvedor Edu;
-//    Edu.setMatrDev("1900268");
-//    Edu.setTelDev("+99625049");
-//
-//    cout << "\nNumero de matricula do desenvolvedor Edu: " << Edu.getMatrDev();
-//    cout << "\nNumero de telefone do desenvolvedor Edu: " << Edu.getTelDev() << endl;
-//
-//    Testes Batata;
-//    Batata.setClasseTeste("FUMACA");
-//
-//    cout << "Tipo de teste do teste Batat: " << Batata.getClasseTeste() << endl;
-//
-//    CasoDeTeste Batat;
-//    Batat.setCasoResult("APROVADO");
-//
-//    cout << "Resultado do teste Batat: " << Batat.getCasoResult() << endl;
+    TesteSENHA TUS;
+    switch(TUS.run()) {
+        case TesteSENHA::SUCESSO:
+            cout << "\nTeste de Caso Valido da Senha: Sucesso\n  " << endl;
+            //break;
+        case TesteTEXTO::FALHA:
+            cout << "Teste de Caso Invalido da Senha: Sucesso.\nErro Esperado:\n" << TUS.mensagemExcept <<
+            " -> " << TUS.SENHAInvalida << "\n" << endl;
+            break;
+    }
 
     ////////////////////////////////
+
+    TesteTEXTO TUTex;
+    switch(TUTex.run()) {
+        case TesteTEXTO::SUCESSO:
+            cout << "\nTeste de Caso Valido do Texto: Sucesso\n  " << endl;
+            //break;
+        case TesteTEXTO::FALHA:
+            cout << "Teste de Caso Invalido do Texto: Sucesso.\nErro Esperado:\n" << TUTex.mensagemExcept <<
+            " -> " << TUTex.TEXTOInvalido << "\n" << endl;
+            break;
+    }
+
+/******************************************************************************************/
+
+    TUDesenvolvedor TUDev;
+    switch(TUDev.run()) {
+        case TUDesenvolvedor::SUCESSO:
+            cout << "\nTeste de Caso valido para os seguintes Atributos da classe Desenvolvedor:\n" <<
+            "    Matricula\n    Nome\n    Senha\n    Telefone\n****SUCESSO****\n" << endl;
+            break;
+    }
+
+    TUTestes TUTest;
+    switch(TUTest.run()) {
+        case TUTestes::SUCESSO:
+            cout << "\nTeste de Caso valido para os seguintes Atributos da Classe Testes:\n" <<
+            "    Codigo\n    Nome\n    Classe\n****SUCESSO****\n" << endl;
+            break;
+    }
+
+    TUCasoTeste TUCDtest;
+    switch(TUCDtest.run()) {
+        case TUCasoTeste::SUCESSO:
+            cout << "\nTeste de Caso valido para os seguintes Atributos da Classe CasoDeTestes:\n" <<
+            "    Codigo\n    Nome\n    Data\n    Acao\n    Resposta\n    Resultado\n****SUCESSO****\n" << endl;
+            break;
+    }
 
     return 0;
 }
