@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('class_d_o_m_i_n_i_o_s.html',''); initR
 <p>Classe base das quais herdam todos os Domínios.  
  <a href="class_d_o_m_i_n_i_o_s.html#details">Mais...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_ed_d_o_m_i_n_i_o_s_8h_source.html">EdDOMINIOS.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_d_o_m_i_n_i_o_s_8h_source.html">DOMINIOS.h</a>&gt;</code></p>
 <div class="dynheader">
 Diagrama de hierarquia para DOMINIOS:</div>
 <div class="dyncontent">
@@ -127,11 +127,45 @@ Membros Públicos</h2></td></tr>
 <tr class="separator:a0646c5f5f5a3e648e39671fd67378b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afee1389b63de22d0e679b0a325d71567"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_m_i_n_i_o_s.html#afee1389b63de22d0e679b0a325d71567">Validar</a> (std::string)=0</td></tr>
 <tr class="separator:afee1389b63de22d0e679b0a325d71567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addcdbe9eaf5cc71460f32c6da5aefef4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_m_i_n_i_o_s.html#addcdbe9eaf5cc71460f32c6da5aefef4">~DOMINIOS</a> ()</td></tr>
+<tr class="separator:addcdbe9eaf5cc71460f32c6da5aefef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44898d3f7b3bba7ed8470adabbfc4b4f"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_m_i_n_i_o_s.html#a44898d3f7b3bba7ed8470adabbfc4b4f">getValor</a> ()=0</td></tr>
+<tr class="separator:a44898d3f7b3bba7ed8470adabbfc4b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d43addeee62efbfdca4f2d07fdc89f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_o_m_i_n_i_o_s.html#aa5d43addeee62efbfdca4f2d07fdc89f">setValor</a> (std::string)=0</td></tr>
+<tr class="separator:aa5d43addeee62efbfdca4f2d07fdc89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
 <div class="textblock"><p >Classe base das quais herdam todos os Domínios. </p>
 <p >Esta classe possui apenas o método virtual puro <code><a class="el" href="class_d_o_m_i_n_i_o_s.html#afee1389b63de22d0e679b0a325d71567">Validar()</a></code> e o método genérico <code><a class="el" href="class_d_o_m_i_n_i_o_s.html#a0646c5f5f5a3e648e39671fd67378b49">contem()</a></code>, herdados pelas classes derivadas. </p>
-</div><h2 class="groupheader">Funções membros</h2>
+</div><h2 class="groupheader">Construtores e Destrutores</h2>
+<a id="addcdbe9eaf5cc71460f32c6da5aefef4" name="addcdbe9eaf5cc71460f32c6da5aefef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addcdbe9eaf5cc71460f32c6da5aefef4">&#9670;&nbsp;</a></span>~DOMINIOS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual DOMINIOS::~DOMINIOS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<h2><a class="anchor" id="autotoc_md2"></a>
+Método virtual destrutor.</h2>
+
+</div>
+</div>
+<h2 class="groupheader">Funções membros</h2>
 <a id="a0646c5f5f5a3e648e39671fd67378b49" name="a0646c5f5f5a3e648e39671fd67378b49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0646c5f5f5a3e648e39671fd67378b49">&#9670;&nbsp;</a></span>contem()</h2>
 
@@ -180,6 +214,67 @@ Função auxiliar para métodos de classes derivadas.</h2>
 
 </div>
 </div>
+<a id="a44898d3f7b3bba7ed8470adabbfc4b4f" name="a44898d3f7b3bba7ed8470adabbfc4b4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44898d3f7b3bba7ed8470adabbfc4b4f">&#9670;&nbsp;</a></span>getValor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string DOMINIOS::getValor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<h2><a class="anchor" id="autotoc_md3"></a>
+Método virtual puro de retorno de valor.</h2>
+<p >Este método é redefinido nas classes derivadas, de modo a retornar o atributo adequado para cada classe. </p>
+
+<p>Implementado por <a class="el" href="class_m_a_t_r_i_c_u_l_a.html#a18f10116789fa0b577f673ab22a27ebf">MATRICULA</a>, <a class="el" href="class_r_e_s_u_l_t_a_d_o.html#a26b2266aea1fc7667ee3ea752ac63cfd">RESULTADO</a>, <a class="el" href="class_c_l_a_s_s_e.html#a617e63fd4d5caeae759573d96b8b712d">CLASSE</a>, <a class="el" href="class_t_e_l_e_f_o_n_e.html#ac00ed4c06ac633db926cb1c5173601b4">TELEFONE</a>, <a class="el" href="class_c_o_d_i_g_o.html#a345f7c7e5c1bc0478255d1460b129d0e">CODIGO</a>, <a class="el" href="class_d_a_t_a.html#a7e0db3b12c37f2b0a5f8f801fedb1b67">DATA</a>, <a class="el" href="class_s_e_n_h_a.html#abc9b2b976a4642d12463c6ef1a7354c1">SENHA</a> e <a class="el" href="class_t_e_x_t_o.html#a51559ecc3e5848fb4f3d3c4d57268ed3">TEXTO</a>.</p>
+
+</div>
+</div>
+<a id="aa5d43addeee62efbfdca4f2d07fdc89f" name="aa5d43addeee62efbfdca4f2d07fdc89f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d43addeee62efbfdca4f2d07fdc89f">&#9670;&nbsp;</a></span>setValor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void DOMINIOS::setValor </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<h2><a class="anchor" id="autotoc_md4"></a>
+Método virtual puro de atribuição de valor.</h2>
+<p >Este método é redefinido nas classes derivadas, de modo a atribuir para o devido atributo da classe um valor adequado. </p>
+
+<p>Implementado por <a class="el" href="class_m_a_t_r_i_c_u_l_a.html#aee799a4d228b3ebcc73aaba39f2e6ca5">MATRICULA</a>, <a class="el" href="class_r_e_s_u_l_t_a_d_o.html#ae9e023d9b940d282cd742c0fa3949a36">RESULTADO</a>, <a class="el" href="class_c_l_a_s_s_e.html#ab8bf6696eeee0980e37f79b9111b3f10">CLASSE</a>, <a class="el" href="class_t_e_l_e_f_o_n_e.html#a61e63d7b471bdb26c17a09dcf4a71009">TELEFONE</a>, <a class="el" href="class_c_o_d_i_g_o.html#abff6e52c3c8ddc82ef3ea38187200173">CODIGO</a>, <a class="el" href="class_d_a_t_a.html#afc8c9e7738e50614be15cc4084eb608f">DATA</a>, <a class="el" href="class_s_e_n_h_a.html#a7237a8bcc1956be1eea2a392d33b7049">SENHA</a> e <a class="el" href="class_t_e_x_t_o.html#a969e2384e826e14aa971f8ea71fa18ae">TEXTO</a>.</p>
+
+</div>
+</div>
 <a id="afee1389b63de22d0e679b0a325d71567" name="afee1389b63de22d0e679b0a325d71567"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afee1389b63de22d0e679b0a325d71567">&#9670;&nbsp;</a></span>Validar()</h2>
 
@@ -211,8 +306,8 @@ Método virtual puro, sem implementação.</h2>
 </div>
 </div>
 <hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
-<li>C:/Trab01TecPro/headers/Eduardo/<a class="el" href="_ed_d_o_m_i_n_i_o_s_8h_source.html">EdDOMINIOS.h</a></li>
-<li>C:/Trab01TecPro/implementacao/Eduardo/<a class="el" href="_ed_i_m_p_l_e_m_e_n_t_a_c_a_o_8cpp.html">EdIMPLEMENTACAO.cpp</a></li>
+<li>C:/Trab01TecPro/headers/<a class="el" href="_d_o_m_i_n_i_o_s_8h_source.html">DOMINIOS.h</a></li>
+<li>C:/Trab01TecPro/implementacao/<a class="el" href="_dominios_i_m_p_l_e_m_e_n_t_a_c_a_o_8cpp.html">DominiosIMPLEMENTACAO.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

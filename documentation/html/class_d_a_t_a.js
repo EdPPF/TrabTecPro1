@@ -1,8 +1,8 @@
 var class_d_a_t_a =
 [
     [ "anoBissexto", "class_d_a_t_a.html#a3f31bf7bfc374ec060aa22beabe316c8", null ],
-    [ "getData", "class_d_a_t_a.html#ad90317b54c3d4a3f6dace9b78676a0ec", null ],
-    [ "setData", "class_d_a_t_a.html#a539233ae047261e5392aa681e8bc7d39", null ],
+    [ "getValor", "class_d_a_t_a.html#a7e0db3b12c37f2b0a5f8f801fedb1b67", null ],
+    [ "setValor", "class_d_a_t_a.html#afc8c9e7738e50614be15cc4084eb608f", null ],
     [ "Validar", "class_d_a_t_a.html#aded026b459424e87d364e3cb782c9644", null ],
     [ "verificaAno", "class_d_a_t_a.html#a2308bb152f1272c36394752be3c4e9c9", null ],
     [ "verificaDia", "class_d_a_t_a.html#a20220641994db5a41ddf4cb6edfa948c", null ],

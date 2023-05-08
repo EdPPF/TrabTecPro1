@@ -1,10 +1,9 @@
 # depslib dependency file v1.0
-1683298390 source:c:\trab01tecpro\main.cpp
-	"./headers/DOMINIOS.h"
+1683574520 source:c:\trab01tecpro\main.cpp
+	"./headers/TesteDOMINIOS.h"
+	"./headers/TesteENTIDADES.h"
 	<iostream>
 	<string>
-	<cctype>
-	<regex>
 
 1681765299 source:c:\trab01tecpro\implementacao\matricula.cpp
 	"../headers/MATRICULA.h"
@@ -55,7 +54,7 @@
 1683574520 c:\trab01tecpro\headers\dominios.h
 	<string>
 
-1683299142 source:c:\trab01tecpro\implementacao\dominiosimplementacao.cpp
+1683574520 source:c:\trab01tecpro\implementacao\dominiosimplementacao.cpp
 	"../headers/DOMINIOS.h"
 	<stdexcept>
 	<string>
@@ -66,5 +65,21 @@
 
 1683574520 c:\trab01tecpro\headers\entidades.h
 	"./DOMINIOS.h"
+	<string>
+
+1683574520 source:c:\trab01tecpro\implementacao\testedominios.cpp
+	"../headers/TesteDOMINIOS.h"
+
+1683574520 c:\trab01tecpro\headers\testedominios.h
+	"./ENTIDADES.h"
+	<stdexcept>
+	<string>
+
+1683574520 source:c:\trab01tecpro\implementacao\testeentidades.cpp
+	"../headers/TesteENTIDADES.h"
+
+1683574520 c:\trab01tecpro\headers\testeentidades.h
+	".\ENTIDADES.h"
+	<stdexcept>
 	<string>
 

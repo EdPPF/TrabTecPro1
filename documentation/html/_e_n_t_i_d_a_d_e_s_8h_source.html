@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sistema de Gerenciamento de Testes: Código-Fonte de C:/Trab01TecPro/headers/ENTIDADES.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Sistema de Gerenciamento de Testes<span id="projectnumber">&#160;v1.0</span>
+   </div>
+   <div id="projectbrief">Trabalho de Técnicas de Programação 1 - UnB, 2023/1</div>
+  </td>
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.svg"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td></tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Busca','.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_e_n_t_i_d_a_d_e_s_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ENTIDADES.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_e_n_t_i_d_a_d_e_s_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Por: Eduardo Ferreira (190026987)</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="_d_o_m_i_n_i_o_s_8h.html">./DOMINIOS.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="class_desenvolvedor.html">Desenvolvedor</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#a1bd657df8bd9b81d2b1d666107c0ef7c">   19</a></span>        <span class="comment">/*&lt;&lt;PK&gt;&gt;*/</span> <a class="code hl_class" href="class_m_a_t_r_i_c_u_l_a.html">MATRICULA</a> <a class="code hl_variable" href="class_desenvolvedor.html#a1bd657df8bd9b81d2b1d666107c0ef7c">matricula</a>; </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#a120e71899c4ecf0ddf39e15ebd3284ea">   20</a></span>        <a class="code hl_class" href="class_t_e_x_t_o.html">TEXTO</a> <a class="code hl_variable" href="class_desenvolvedor.html#a120e71899c4ecf0ddf39e15ebd3284ea">nome</a>;                     </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#a82cdf55214b46b60273bfd5fd434faa2">   21</a></span>        <a class="code hl_class" href="class_s_e_n_h_a.html">SENHA</a> <a class="code hl_variable" href="class_desenvolvedor.html#a82cdf55214b46b60273bfd5fd434faa2">senha</a>;                    </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#ae24612cc83c68fbcc91f2b1a1054ef8c">   22</a></span>        <a class="code hl_class" href="class_t_e_l_e_f_o_n_e.html">TELEFONE</a> <a class="code hl_variable" href="class_desenvolvedor.html#ae24612cc83c68fbcc91f2b1a1054ef8c">telefone</a>;              </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#a992a7bf08c210c0e326f7c0868d71a82">   32</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_desenvolvedor.html#a992a7bf08c210c0e326f7c0868d71a82">setMatrDev</a>(std::string novaMatricula){</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            <span class="comment">//matricula.setMatricula(novaMatricula);</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <a class="code hl_variable" href="class_desenvolvedor.html#a1bd657df8bd9b81d2b1d666107c0ef7c">matricula</a>.<a class="code hl_function" href="class_m_a_t_r_i_c_u_l_a.html#aee799a4d228b3ebcc73aaba39f2e6ca5">setValor</a>(novaMatricula);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#aee2126cc8ae185201d39c27e0f9fe7ab">   44</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_desenvolvedor.html#aee2126cc8ae185201d39c27e0f9fe7ab">setNomeDev</a>(std::string novoNome){</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            <span class="comment">//nome.setTexto(novoNome);</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            <a class="code hl_variable" href="class_desenvolvedor.html#a120e71899c4ecf0ddf39e15ebd3284ea">nome</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a969e2384e826e14aa971f8ea71fa18ae">setValor</a>(novoNome);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        }</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#ab6f29c6fe05310c185fe2e0c17659d5e">   56</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_desenvolvedor.html#ab6f29c6fe05310c185fe2e0c17659d5e">setSenhaDev</a>(std::string novaSenha) {</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <span class="comment">//senha.setSenha(novaSenha);</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <a class="code hl_variable" href="class_desenvolvedor.html#a82cdf55214b46b60273bfd5fd434faa2">senha</a>.<a class="code hl_function" href="class_s_e_n_h_a.html#a7237a8bcc1956be1eea2a392d33b7049">setValor</a>(novaSenha);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#a29750c5cd3086765a598cd4cae9d4516">   68</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_desenvolvedor.html#a29750c5cd3086765a598cd4cae9d4516">setTelDev</a>(std::string novoTelefone) {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="comment">//telefone.setTel(novoTelefone);</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            <a class="code hl_variable" href="class_desenvolvedor.html#ae24612cc83c68fbcc91f2b1a1054ef8c">telefone</a>.<a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#a61e63d7b471bdb26c17a09dcf4a71009">setValor</a>(novoTelefone);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#a53d42d43046abc0631930dd7cb907917">   79</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_desenvolvedor.html#a53d42d43046abc0631930dd7cb907917">getMatrDev</a>() {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            <span class="comment">//return matricula.getMatricula();</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_desenvolvedor.html#a1bd657df8bd9b81d2b1d666107c0ef7c">matricula</a>.<a class="code hl_function" href="class_m_a_t_r_i_c_u_l_a.html#a18f10116789fa0b577f673ab22a27ebf">getValor</a>();</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#acd8904aad7d3ffefefb07b74b386ca11">   89</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_desenvolvedor.html#acd8904aad7d3ffefefb07b74b386ca11">getNomeDev</a>() {</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            <span class="comment">//return nome.getTexto();</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_desenvolvedor.html#a120e71899c4ecf0ddf39e15ebd3284ea">nome</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a51559ecc3e5848fb4f3d3c4d57268ed3">getValor</a>();</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        }</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#a20cd082a10ba97307ee1874f1b1bdc69">   99</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_desenvolvedor.html#a20cd082a10ba97307ee1874f1b1bdc69">getSenhaDev</a>() {</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            <span class="comment">//return senha.getSenha();</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_desenvolvedor.html#a82cdf55214b46b60273bfd5fd434faa2">senha</a>.<a class="code hl_function" href="class_s_e_n_h_a.html#abc9b2b976a4642d12463c6ef1a7354c1">getValor</a>();</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="class_desenvolvedor.html#ab52d56efa3e68ef715adabb1e1d8fcaa">  109</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_desenvolvedor.html#ab52d56efa3e68ef715adabb1e1d8fcaa">getTelDev</a>() {</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            <span class="comment">//return telefone.getTel();</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_desenvolvedor.html#ae24612cc83c68fbcc91f2b1a1054ef8c">telefone</a>.<a class="code hl_function" href="class_t_e_l_e_f_o_n_e.html#ac00ed4c06ac633db926cb1c5173601b4">getValor</a>();</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        }</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>};</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="comment">/******************************************************************************************/</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="class_testes.html">  124</a></span><span class="keyword">class </span><a class="code hl_class" href="class_testes.html">Testes</a> {</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="class_testes.html#a41df988973cbdf253eb75540a6dfac94">  126</a></span>        <span class="comment">/*&lt;&lt;PK&gt;&gt;*/</span> <a class="code hl_class" href="class_c_o_d_i_g_o.html">CODIGO</a> <a class="code hl_variable" href="class_testes.html#a41df988973cbdf253eb75540a6dfac94">codigo</a>; </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="class_testes.html#a0811b45211883917813815af90389e86">  127</a></span>        <a class="code hl_class" href="class_t_e_x_t_o.html">TEXTO</a> <a class="code hl_variable" href="class_testes.html#a0811b45211883917813815af90389e86">texto</a>;              </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="class_testes.html#ab541c44e954c95ac28cdef77318a2ff2">  128</a></span>        <a class="code hl_class" href="class_c_l_a_s_s_e.html">CLASSE</a> <a class="code hl_variable" href="class_testes.html#ab541c44e954c95ac28cdef77318a2ff2">classe</a>;            </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="class_testes.html#af6e7bbb978fcd6a58c3fe58c9429c84b">  138</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_testes.html#af6e7bbb978fcd6a58c3fe58c9429c84b">setCodigoTeste</a>(std::string novoCodigo){</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            <span class="comment">//codigo.setCodigo(novoCodigo);</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>            <a class="code hl_variable" href="class_testes.html#a41df988973cbdf253eb75540a6dfac94">codigo</a>.<a class="code hl_function" href="class_c_o_d_i_g_o.html#abff6e52c3c8ddc82ef3ea38187200173">setValor</a>(novoCodigo);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>        }</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="class_testes.html#a63cd78a38ba87230ccaa229557e26dd2">  150</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_testes.html#a63cd78a38ba87230ccaa229557e26dd2">setTextoTeste</a>(std::string novoTexto) {</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>            <span class="comment">//texto.setTexto(novoTexto);</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>            <a class="code hl_variable" href="class_testes.html#a0811b45211883917813815af90389e86">texto</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a969e2384e826e14aa971f8ea71fa18ae">setValor</a>(novoTexto);</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        }</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="class_testes.html#ab56005d2aec497c36c70afecac7834da">  162</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_testes.html#ab56005d2aec497c36c70afecac7834da">setClasseTeste</a>(std::string novaClasse) {</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>            <span class="comment">//classe.setNome(novaClasse);</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>            <a class="code hl_variable" href="class_testes.html#ab541c44e954c95ac28cdef77318a2ff2">classe</a>.<a class="code hl_function" href="class_c_l_a_s_s_e.html#ab8bf6696eeee0980e37f79b9111b3f10">setValor</a>(novaClasse);</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        }</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="class_testes.html#a802f98ddf7e322d3d3c52a2ce1936a6f">  173</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_testes.html#a802f98ddf7e322d3d3c52a2ce1936a6f">getCodigoTeste</a>() {</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>            <span class="comment">//return codigo.getCodigo();</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_testes.html#a41df988973cbdf253eb75540a6dfac94">codigo</a>.<a class="code hl_function" href="class_c_o_d_i_g_o.html#a345f7c7e5c1bc0478255d1460b129d0e">getValor</a>();</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        }</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="class_testes.html#a4a10192238879940c3e1a54f14d05107">  183</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_testes.html#a4a10192238879940c3e1a54f14d05107">getTextoTeste</a>() {</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>            <span class="comment">//return texto.getTexto();</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_testes.html#a0811b45211883917813815af90389e86">texto</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a51559ecc3e5848fb4f3d3c4d57268ed3">getValor</a>();</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        }</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno"><a class="line" href="class_testes.html#aedaea86d160e6f2ee2cbcff1b0e3fc61">  193</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_testes.html#aedaea86d160e6f2ee2cbcff1b0e3fc61">getClasseTeste</a>() {</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>            <span class="comment">//return classe.getNome();</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_testes.html#ab541c44e954c95ac28cdef77318a2ff2">classe</a>.<a class="code hl_function" href="class_c_l_a_s_s_e.html#a617e63fd4d5caeae759573d96b8b712d">getValor</a>();</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        }</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>};</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="comment">/******************************************************************************************/</span></div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html">  213</a></span><span class="keyword">class </span><a class="code hl_class" href="class_caso_de_teste.html">CasoDeTeste</a> {</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a73397edbbfd463d23872d24fa54ef460">  215</a></span>        <span class="comment">/*&lt;&lt;PK&gt;&gt;*/</span> <a class="code hl_class" href="class_c_o_d_i_g_o.html">CODIGO</a> <a class="code hl_variable" href="class_caso_de_teste.html#a73397edbbfd463d23872d24fa54ef460">codigo</a>; </div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#aff6dc8a5a01d1e23c8df13d883542fac">  216</a></span>        <a class="code hl_class" href="class_t_e_x_t_o.html">TEXTO</a> <a class="code hl_variable" href="class_caso_de_teste.html#aff6dc8a5a01d1e23c8df13d883542fac">nome</a>;               </div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a98448a76d8a1e6108a04956ba731460d">  217</a></span>        <a class="code hl_class" href="class_d_a_t_a.html">DATA</a> <a class="code hl_variable" href="class_caso_de_teste.html#a98448a76d8a1e6108a04956ba731460d">data</a>;                </div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#aa049547bec438d66b46fee0bbe92b1a8">  218</a></span>        <a class="code hl_class" href="class_t_e_x_t_o.html">TEXTO</a> <a class="code hl_variable" href="class_caso_de_teste.html#aa049547bec438d66b46fee0bbe92b1a8">acao</a>;               </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a4a60983dcbe50bd527bed9aec504707f">  219</a></span>        <a class="code hl_class" href="class_t_e_x_t_o.html">TEXTO</a> <a class="code hl_variable" href="class_caso_de_teste.html#a4a60983dcbe50bd527bed9aec504707f">resposta</a>;           </div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a9c5027ae0036dcaad9cd8fc4fad48040">  220</a></span>        <a class="code hl_class" href="class_r_e_s_u_l_t_a_d_o.html">RESULTADO</a> <a class="code hl_variable" href="class_caso_de_teste.html#a9c5027ae0036dcaad9cd8fc4fad48040">resultado</a>;      </div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a6d86748080190672de393a8d9598000a">  230</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_caso_de_teste.html#a6d86748080190672de393a8d9598000a">setCasoCodigo</a>(std::string novoCodigo) {</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>            <span class="comment">//codigo.setCodigo(novoCodigo);</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>            <a class="code hl_variable" href="class_caso_de_teste.html#a73397edbbfd463d23872d24fa54ef460">codigo</a>.<a class="code hl_function" href="class_c_o_d_i_g_o.html#abff6e52c3c8ddc82ef3ea38187200173">setValor</a>(novoCodigo);</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>        }</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#ab0505e58898124658efbdd63cd14b8b3">  242</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_caso_de_teste.html#ab0505e58898124658efbdd63cd14b8b3">setCasoNome</a>(std::string novoNome) {</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>            <span class="comment">//nome.setTexto(novoNome);</span></div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>            <a class="code hl_variable" href="class_caso_de_teste.html#aff6dc8a5a01d1e23c8df13d883542fac">nome</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a969e2384e826e14aa971f8ea71fa18ae">setValor</a>(novoNome);</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>        }</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a8ae5a6c207d5b60133b852ad041082b6">  254</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_caso_de_teste.html#a8ae5a6c207d5b60133b852ad041082b6">setCasoData</a>(std::string novaData) {</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>            <span class="comment">//data.setData(novaData);</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>            <a class="code hl_variable" href="class_caso_de_teste.html#a98448a76d8a1e6108a04956ba731460d">data</a>.<a class="code hl_function" href="class_d_a_t_a.html#afc8c9e7738e50614be15cc4084eb608f">setValor</a>(novaData);</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>        }</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a8bb719846470afcd57ce084f481c7477">  266</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_caso_de_teste.html#a8bb719846470afcd57ce084f481c7477">setCasoAcao</a>(std::string novaAcao) {</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>            <span class="comment">//acao.setTexto(novaAcao);</span></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>            <a class="code hl_variable" href="class_caso_de_teste.html#aa049547bec438d66b46fee0bbe92b1a8">acao</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a969e2384e826e14aa971f8ea71fa18ae">setValor</a>(novaAcao);</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        }</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span> </div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#ae6f39631de1bfe25d3c18161e7424a52">  278</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_caso_de_teste.html#ae6f39631de1bfe25d3c18161e7424a52">setCasoResposta</a>(std::string novaResposta) {</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>            <span class="comment">//resposta.setTexto(novaResposta);</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>            <a class="code hl_variable" href="class_caso_de_teste.html#a4a60983dcbe50bd527bed9aec504707f">resposta</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a969e2384e826e14aa971f8ea71fa18ae">setValor</a>(novaResposta);</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>        }</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span> </div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a152d7d55ebbcb5ffbdee8d1a4459481b">  290</a></span>        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_caso_de_teste.html#a152d7d55ebbcb5ffbdee8d1a4459481b">setCasoResult</a>(std::string novoResultado) {</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>            <span class="comment">//resultado.setResult(novoResultado);</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>            <a class="code hl_variable" href="class_caso_de_teste.html#a9c5027ae0036dcaad9cd8fc4fad48040">resultado</a>.<a class="code hl_function" href="class_r_e_s_u_l_t_a_d_o.html#ae9e023d9b940d282cd742c0fa3949a36">setValor</a>(novoResultado);</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        }</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span> </div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#abb6be05034e1d585fbbc44dcc1ff5511">  301</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_caso_de_teste.html#abb6be05034e1d585fbbc44dcc1ff5511">getCasoCodigo</a>() {</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>            <span class="comment">//return codigo.getCodigo();</span></div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_caso_de_teste.html#a73397edbbfd463d23872d24fa54ef460">codigo</a>.<a class="code hl_function" href="class_c_o_d_i_g_o.html#a345f7c7e5c1bc0478255d1460b129d0e">getValor</a>();</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>        }</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a106ac154763a19a423a4a5c91f4ec1fa">  311</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_caso_de_teste.html#a106ac154763a19a423a4a5c91f4ec1fa">getCasoNome</a>() {</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>            <span class="comment">//return nome.getTexto();</span></div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_caso_de_teste.html#aff6dc8a5a01d1e23c8df13d883542fac">nome</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a51559ecc3e5848fb4f3d3c4d57268ed3">getValor</a>();</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>        }</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span> </div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a6eace1257cc829e32a8cec142bf56d5d">  321</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_caso_de_teste.html#a6eace1257cc829e32a8cec142bf56d5d">getCasoData</a>() {</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>            <span class="comment">//return data.getData();</span></div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_caso_de_teste.html#a98448a76d8a1e6108a04956ba731460d">data</a>.<a class="code hl_function" href="class_d_a_t_a.html#a7e0db3b12c37f2b0a5f8f801fedb1b67">getValor</a>();</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>        }</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span> </div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span> </div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#ad8dedc675b60d8ea56315712f4e5857a">  331</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_caso_de_teste.html#ad8dedc675b60d8ea56315712f4e5857a">getCasoAcao</a>() {</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>            <span class="comment">//return acao.getTexto();</span></div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_caso_de_teste.html#aa049547bec438d66b46fee0bbe92b1a8">acao</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a51559ecc3e5848fb4f3d3c4d57268ed3">getValor</a>();</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>        }</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span> </div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span> </div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a12f38450ba7df112521447de87ccbd04">  341</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_caso_de_teste.html#a12f38450ba7df112521447de87ccbd04">getCasoResposta</a>() {</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>            <span class="comment">//return resposta.getTexto();</span></div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_caso_de_teste.html#a4a60983dcbe50bd527bed9aec504707f">resposta</a>.<a class="code hl_function" href="class_t_e_x_t_o.html#a51559ecc3e5848fb4f3d3c4d57268ed3">getValor</a>();</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>        }</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span> </div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno"><a class="line" href="class_caso_de_teste.html#a6435b7a5e6a506bd25c6ff3fa7559b64">  351</a></span>        <span class="keyword">inline</span> std::string <a class="code hl_function" href="class_caso_de_teste.html#a6435b7a5e6a506bd25c6ff3fa7559b64">getCasoResult</a>() {</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>            <span class="comment">//return resultado.getResult();</span></div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_caso_de_teste.html#a9c5027ae0036dcaad9cd8fc4fad48040">resultado</a>.<a class="code hl_function" href="class_r_e_s_u_l_t_a_d_o.html#a26b2266aea1fc7667ee3ea752ac63cfd">getValor</a>();</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>        }</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>};</div>
+<div class="ttc" id="a_d_o_m_i_n_i_o_s_8h_html"><div class="ttname"><a href="_d_o_m_i_n_i_o_s_8h.html">DOMINIOS.h</a></div></div>
+<div class="ttc" id="aclass_c_l_a_s_s_e_html"><div class="ttname"><a href="class_c_l_a_s_s_e.html">CLASSE</a></div><div class="ttdoc">Clsse representativa dos tipos de teste.</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:178</div></div>
+<div class="ttc" id="aclass_c_l_a_s_s_e_html_a617e63fd4d5caeae759573d96b8b712d"><div class="ttname"><a href="class_c_l_a_s_s_e.html#a617e63fd4d5caeae759573d96b8b712d">CLASSE::getValor</a></div><div class="ttdeci">std::string getValor()</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:214</div></div>
+<div class="ttc" id="aclass_c_l_a_s_s_e_html_ab8bf6696eeee0980e37f79b9111b3f10"><div class="ttname"><a href="class_c_l_a_s_s_e.html#ab8bf6696eeee0980e37f79b9111b3f10">CLASSE::setValor</a></div><div class="ttdeci">void setValor(std::string)</div><div class="ttdef"><b>Definition:</b> DominiosIMPLEMENTACAO.cpp:81</div></div>
+<div class="ttc" id="aclass_c_o_d_i_g_o_html"><div class="ttname"><a href="class_c_o_d_i_g_o.html">CODIGO</a></div><div class="ttdoc">Classe representativa dos códigos dos testes e casos de teste.</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:328</div></div>
+<div class="ttc" id="aclass_c_o_d_i_g_o_html_a345f7c7e5c1bc0478255d1460b129d0e"><div class="ttname"><a href="class_c_o_d_i_g_o.html#a345f7c7e5c1bc0478255d1460b129d0e">CODIGO::getValor</a></div><div class="ttdeci">std::string getValor()</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:385</div></div>
+<div class="ttc" id="aclass_c_o_d_i_g_o_html_abff6e52c3c8ddc82ef3ea38187200173"><div class="ttname"><a href="class_c_o_d_i_g_o.html#abff6e52c3c8ddc82ef3ea38187200173">CODIGO::setValor</a></div><div class="ttdeci">void setValor(std::string)</div><div class="ttdef"><b>Definition:</b> DominiosIMPLEMENTACAO.cpp:172</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html"><div class="ttname"><a href="class_caso_de_teste.html">CasoDeTeste</a></div><div class="ttdoc">Classe representativa dos casos de teste para os DOMINIOS.</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:213</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a106ac154763a19a423a4a5c91f4ec1fa"><div class="ttname"><a href="class_caso_de_teste.html#a106ac154763a19a423a4a5c91f4ec1fa">CasoDeTeste::getCasoNome</a></div><div class="ttdeci">std::string getCasoNome()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:311</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a12f38450ba7df112521447de87ccbd04"><div class="ttname"><a href="class_caso_de_teste.html#a12f38450ba7df112521447de87ccbd04">CasoDeTeste::getCasoResposta</a></div><div class="ttdeci">std::string getCasoResposta()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:341</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a152d7d55ebbcb5ffbdee8d1a4459481b"><div class="ttname"><a href="class_caso_de_teste.html#a152d7d55ebbcb5ffbdee8d1a4459481b">CasoDeTeste::setCasoResult</a></div><div class="ttdeci">void setCasoResult(std::string novoResultado)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:290</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a4a60983dcbe50bd527bed9aec504707f"><div class="ttname"><a href="class_caso_de_teste.html#a4a60983dcbe50bd527bed9aec504707f">CasoDeTeste::resposta</a></div><div class="ttdeci">TEXTO resposta</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:219</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a6435b7a5e6a506bd25c6ff3fa7559b64"><div class="ttname"><a href="class_caso_de_teste.html#a6435b7a5e6a506bd25c6ff3fa7559b64">CasoDeTeste::getCasoResult</a></div><div class="ttdeci">std::string getCasoResult()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:351</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a6d86748080190672de393a8d9598000a"><div class="ttname"><a href="class_caso_de_teste.html#a6d86748080190672de393a8d9598000a">CasoDeTeste::setCasoCodigo</a></div><div class="ttdeci">void setCasoCodigo(std::string novoCodigo)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:230</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a6eace1257cc829e32a8cec142bf56d5d"><div class="ttname"><a href="class_caso_de_teste.html#a6eace1257cc829e32a8cec142bf56d5d">CasoDeTeste::getCasoData</a></div><div class="ttdeci">std::string getCasoData()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:321</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a73397edbbfd463d23872d24fa54ef460"><div class="ttname"><a href="class_caso_de_teste.html#a73397edbbfd463d23872d24fa54ef460">CasoDeTeste::codigo</a></div><div class="ttdeci">CODIGO codigo</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:215</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a8ae5a6c207d5b60133b852ad041082b6"><div class="ttname"><a href="class_caso_de_teste.html#a8ae5a6c207d5b60133b852ad041082b6">CasoDeTeste::setCasoData</a></div><div class="ttdeci">void setCasoData(std::string novaData)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:254</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a8bb719846470afcd57ce084f481c7477"><div class="ttname"><a href="class_caso_de_teste.html#a8bb719846470afcd57ce084f481c7477">CasoDeTeste::setCasoAcao</a></div><div class="ttdeci">void setCasoAcao(std::string novaAcao)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:266</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a98448a76d8a1e6108a04956ba731460d"><div class="ttname"><a href="class_caso_de_teste.html#a98448a76d8a1e6108a04956ba731460d">CasoDeTeste::data</a></div><div class="ttdeci">DATA data</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:217</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_a9c5027ae0036dcaad9cd8fc4fad48040"><div class="ttname"><a href="class_caso_de_teste.html#a9c5027ae0036dcaad9cd8fc4fad48040">CasoDeTeste::resultado</a></div><div class="ttdeci">RESULTADO resultado</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:220</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_aa049547bec438d66b46fee0bbe92b1a8"><div class="ttname"><a href="class_caso_de_teste.html#aa049547bec438d66b46fee0bbe92b1a8">CasoDeTeste::acao</a></div><div class="ttdeci">TEXTO acao</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:218</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_ab0505e58898124658efbdd63cd14b8b3"><div class="ttname"><a href="class_caso_de_teste.html#ab0505e58898124658efbdd63cd14b8b3">CasoDeTeste::setCasoNome</a></div><div class="ttdeci">void setCasoNome(std::string novoNome)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:242</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_abb6be05034e1d585fbbc44dcc1ff5511"><div class="ttname"><a href="class_caso_de_teste.html#abb6be05034e1d585fbbc44dcc1ff5511">CasoDeTeste::getCasoCodigo</a></div><div class="ttdeci">std::string getCasoCodigo()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:301</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_ad8dedc675b60d8ea56315712f4e5857a"><div class="ttname"><a href="class_caso_de_teste.html#ad8dedc675b60d8ea56315712f4e5857a">CasoDeTeste::getCasoAcao</a></div><div class="ttdeci">std::string getCasoAcao()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:331</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_ae6f39631de1bfe25d3c18161e7424a52"><div class="ttname"><a href="class_caso_de_teste.html#ae6f39631de1bfe25d3c18161e7424a52">CasoDeTeste::setCasoResposta</a></div><div class="ttdeci">void setCasoResposta(std::string novaResposta)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:278</div></div>
+<div class="ttc" id="aclass_caso_de_teste_html_aff6dc8a5a01d1e23c8df13d883542fac"><div class="ttname"><a href="class_caso_de_teste.html#aff6dc8a5a01d1e23c8df13d883542fac">CasoDeTeste::nome</a></div><div class="ttdeci">TEXTO nome</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:216</div></div>
+<div class="ttc" id="aclass_d_a_t_a_html"><div class="ttname"><a href="class_d_a_t_a.html">DATA</a></div><div class="ttdoc">Classe representativa da data dos casos de teste.</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:401</div></div>
+<div class="ttc" id="aclass_d_a_t_a_html_a7e0db3b12c37f2b0a5f8f801fedb1b67"><div class="ttname"><a href="class_d_a_t_a.html#a7e0db3b12c37f2b0a5f8f801fedb1b67">DATA::getValor</a></div><div class="ttdeci">std::string getValor()</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:504</div></div>
+<div class="ttc" id="aclass_d_a_t_a_html_afc8c9e7738e50614be15cc4084eb608f"><div class="ttname"><a href="class_d_a_t_a.html#afc8c9e7738e50614be15cc4084eb608f">DATA::setValor</a></div><div class="ttdeci">void setValor(std::string)</div><div class="ttdef"><b>Definition:</b> DominiosIMPLEMENTACAO.cpp:271</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html"><div class="ttname"><a href="class_desenvolvedor.html">Desenvolvedor</a></div><div class="ttdoc">Classe representativa da entidade desenvolvedor do sistema.</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:17</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_a120e71899c4ecf0ddf39e15ebd3284ea"><div class="ttname"><a href="class_desenvolvedor.html#a120e71899c4ecf0ddf39e15ebd3284ea">Desenvolvedor::nome</a></div><div class="ttdeci">TEXTO nome</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:20</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_a1bd657df8bd9b81d2b1d666107c0ef7c"><div class="ttname"><a href="class_desenvolvedor.html#a1bd657df8bd9b81d2b1d666107c0ef7c">Desenvolvedor::matricula</a></div><div class="ttdeci">MATRICULA matricula</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:19</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_a20cd082a10ba97307ee1874f1b1bdc69"><div class="ttname"><a href="class_desenvolvedor.html#a20cd082a10ba97307ee1874f1b1bdc69">Desenvolvedor::getSenhaDev</a></div><div class="ttdeci">std::string getSenhaDev()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:99</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_a29750c5cd3086765a598cd4cae9d4516"><div class="ttname"><a href="class_desenvolvedor.html#a29750c5cd3086765a598cd4cae9d4516">Desenvolvedor::setTelDev</a></div><div class="ttdeci">void setTelDev(std::string novoTelefone)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:68</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_a53d42d43046abc0631930dd7cb907917"><div class="ttname"><a href="class_desenvolvedor.html#a53d42d43046abc0631930dd7cb907917">Desenvolvedor::getMatrDev</a></div><div class="ttdeci">std::string getMatrDev()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:79</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_a82cdf55214b46b60273bfd5fd434faa2"><div class="ttname"><a href="class_desenvolvedor.html#a82cdf55214b46b60273bfd5fd434faa2">Desenvolvedor::senha</a></div><div class="ttdeci">SENHA senha</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:21</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_a992a7bf08c210c0e326f7c0868d71a82"><div class="ttname"><a href="class_desenvolvedor.html#a992a7bf08c210c0e326f7c0868d71a82">Desenvolvedor::setMatrDev</a></div><div class="ttdeci">void setMatrDev(std::string novaMatricula)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:32</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_ab52d56efa3e68ef715adabb1e1d8fcaa"><div class="ttname"><a href="class_desenvolvedor.html#ab52d56efa3e68ef715adabb1e1d8fcaa">Desenvolvedor::getTelDev</a></div><div class="ttdeci">std::string getTelDev()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:109</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_ab6f29c6fe05310c185fe2e0c17659d5e"><div class="ttname"><a href="class_desenvolvedor.html#ab6f29c6fe05310c185fe2e0c17659d5e">Desenvolvedor::setSenhaDev</a></div><div class="ttdeci">void setSenhaDev(std::string novaSenha)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:56</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_acd8904aad7d3ffefefb07b74b386ca11"><div class="ttname"><a href="class_desenvolvedor.html#acd8904aad7d3ffefefb07b74b386ca11">Desenvolvedor::getNomeDev</a></div><div class="ttdeci">std::string getNomeDev()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:89</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_ae24612cc83c68fbcc91f2b1a1054ef8c"><div class="ttname"><a href="class_desenvolvedor.html#ae24612cc83c68fbcc91f2b1a1054ef8c">Desenvolvedor::telefone</a></div><div class="ttdeci">TELEFONE telefone</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:22</div></div>
+<div class="ttc" id="aclass_desenvolvedor_html_aee2126cc8ae185201d39c27e0f9fe7ab"><div class="ttname"><a href="class_desenvolvedor.html#aee2126cc8ae185201d39c27e0f9fe7ab">Desenvolvedor::setNomeDev</a></div><div class="ttdeci">void setNomeDev(std::string novoNome)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:44</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html">MATRICULA</a></div><div class="ttdoc">Classe representativa do número de matrícula do usuário.</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:64</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_a18f10116789fa0b577f673ab22a27ebf"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#a18f10116789fa0b577f673ab22a27ebf">MATRICULA::getValor</a></div><div class="ttdeci">std::string getValor()</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:114</div></div>
+<div class="ttc" id="aclass_m_a_t_r_i_c_u_l_a_html_aee799a4d228b3ebcc73aaba39f2e6ca5"><div class="ttname"><a href="class_m_a_t_r_i_c_u_l_a.html#aee799a4d228b3ebcc73aaba39f2e6ca5">MATRICULA::setValor</a></div><div class="ttdeci">void setValor(std::string nmrMatr)</div><div class="ttdef"><b>Definition:</b> DominiosIMPLEMENTACAO.cpp:44</div></div>
+<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html">RESULTADO</a></div><div class="ttdoc">Classe representativa dos resultados dos casos de teste.</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:128</div></div>
+<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html_a26b2266aea1fc7667ee3ea752ac63cfd"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html#a26b2266aea1fc7667ee3ea752ac63cfd">RESULTADO::getValor</a></div><div class="ttdeci">std::string getValor()</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:162</div></div>
+<div class="ttc" id="aclass_r_e_s_u_l_t_a_d_o_html_ae9e023d9b940d282cd742c0fa3949a36"><div class="ttname"><a href="class_r_e_s_u_l_t_a_d_o.html#ae9e023d9b940d282cd742c0fa3949a36">RESULTADO::setValor</a></div><div class="ttdeci">void setValor(std::string)</div><div class="ttdef"><b>Definition:</b> DominiosIMPLEMENTACAO.cpp:62</div></div>
+<div class="ttc" id="aclass_s_e_n_h_a_html"><div class="ttname"><a href="class_s_e_n_h_a.html">SENHA</a></div><div class="ttdoc">Classe representativa da senha de usuários (desenvolvedores).</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:524</div></div>
+<div class="ttc" id="aclass_s_e_n_h_a_html_a7237a8bcc1956be1eea2a392d33b7049"><div class="ttname"><a href="class_s_e_n_h_a.html#a7237a8bcc1956be1eea2a392d33b7049">SENHA::setValor</a></div><div class="ttdeci">void setValor(std::string)</div><div class="ttdef"><b>Definition:</b> DominiosIMPLEMENTACAO.cpp:317</div></div>
+<div class="ttc" id="aclass_s_e_n_h_a_html_abc9b2b976a4642d12463c6ef1a7354c1"><div class="ttname"><a href="class_s_e_n_h_a.html#abc9b2b976a4642d12463c6ef1a7354c1">SENHA::getValor</a></div><div class="ttdeci">std::string getValor()</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:583</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html">TELEFONE</a></div><div class="ttdoc">Classe representativa do número de telefone do usuário.</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:230</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_a61e63d7b471bdb26c17a09dcf4a71009"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#a61e63d7b471bdb26c17a09dcf4a71009">TELEFONE::setValor</a></div><div class="ttdeci">void setValor(std::string)</div><div class="ttdef"><b>Definition:</b> DominiosIMPLEMENTACAO.cpp:129</div></div>
+<div class="ttc" id="aclass_t_e_l_e_f_o_n_e_html_ac00ed4c06ac633db926cb1c5173601b4"><div class="ttname"><a href="class_t_e_l_e_f_o_n_e.html#ac00ed4c06ac633db926cb1c5173601b4">TELEFONE::getValor</a></div><div class="ttdeci">std::string getValor()</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:308</div></div>
+<div class="ttc" id="aclass_t_e_x_t_o_html"><div class="ttname"><a href="class_t_e_x_t_o.html">TEXTO</a></div><div class="ttdoc">Classe representativa de textos variados usados pelas entidades do sistema.</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:600</div></div>
+<div class="ttc" id="aclass_t_e_x_t_o_html_a51559ecc3e5848fb4f3d3c4d57268ed3"><div class="ttname"><a href="class_t_e_x_t_o.html#a51559ecc3e5848fb4f3d3c4d57268ed3">TEXTO::getValor</a></div><div class="ttdeci">std::string getValor()</div><div class="ttdef"><b>Definition:</b> DOMINIOS.h:669</div></div>
+<div class="ttc" id="aclass_t_e_x_t_o_html_a969e2384e826e14aa971f8ea71fa18ae"><div class="ttname"><a href="class_t_e_x_t_o.html#a969e2384e826e14aa971f8ea71fa18ae">TEXTO::setValor</a></div><div class="ttdeci">void setValor(std::string)</div><div class="ttdef"><b>Definition:</b> DominiosIMPLEMENTACAO.cpp:366</div></div>
+<div class="ttc" id="aclass_testes_html"><div class="ttname"><a href="class_testes.html">Testes</a></div><div class="ttdoc">Classe representativa da entidade de testes das classes de DOMINIOS.</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:124</div></div>
+<div class="ttc" id="aclass_testes_html_a0811b45211883917813815af90389e86"><div class="ttname"><a href="class_testes.html#a0811b45211883917813815af90389e86">Testes::texto</a></div><div class="ttdeci">TEXTO texto</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:127</div></div>
+<div class="ttc" id="aclass_testes_html_a41df988973cbdf253eb75540a6dfac94"><div class="ttname"><a href="class_testes.html#a41df988973cbdf253eb75540a6dfac94">Testes::codigo</a></div><div class="ttdeci">CODIGO codigo</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:126</div></div>
+<div class="ttc" id="aclass_testes_html_a4a10192238879940c3e1a54f14d05107"><div class="ttname"><a href="class_testes.html#a4a10192238879940c3e1a54f14d05107">Testes::getTextoTeste</a></div><div class="ttdeci">std::string getTextoTeste()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:183</div></div>
+<div class="ttc" id="aclass_testes_html_a63cd78a38ba87230ccaa229557e26dd2"><div class="ttname"><a href="class_testes.html#a63cd78a38ba87230ccaa229557e26dd2">Testes::setTextoTeste</a></div><div class="ttdeci">void setTextoTeste(std::string novoTexto)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:150</div></div>
+<div class="ttc" id="aclass_testes_html_a802f98ddf7e322d3d3c52a2ce1936a6f"><div class="ttname"><a href="class_testes.html#a802f98ddf7e322d3d3c52a2ce1936a6f">Testes::getCodigoTeste</a></div><div class="ttdeci">std::string getCodigoTeste()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:173</div></div>
+<div class="ttc" id="aclass_testes_html_ab541c44e954c95ac28cdef77318a2ff2"><div class="ttname"><a href="class_testes.html#ab541c44e954c95ac28cdef77318a2ff2">Testes::classe</a></div><div class="ttdeci">CLASSE classe</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:128</div></div>
+<div class="ttc" id="aclass_testes_html_ab56005d2aec497c36c70afecac7834da"><div class="ttname"><a href="class_testes.html#ab56005d2aec497c36c70afecac7834da">Testes::setClasseTeste</a></div><div class="ttdeci">void setClasseTeste(std::string novaClasse)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:162</div></div>
+<div class="ttc" id="aclass_testes_html_aedaea86d160e6f2ee2cbcff1b0e3fc61"><div class="ttname"><a href="class_testes.html#aedaea86d160e6f2ee2cbcff1b0e3fc61">Testes::getClasseTeste</a></div><div class="ttdeci">std::string getClasseTeste()</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:193</div></div>
+<div class="ttc" id="aclass_testes_html_af6e7bbb978fcd6a58c3fe58c9429c84b"><div class="ttname"><a href="class_testes.html#af6e7bbb978fcd6a58c3fe58c9429c84b">Testes::setCodigoTeste</a></div><div class="ttdeci">void setCodigoTeste(std::string novoCodigo)</div><div class="ttdef"><b>Definition:</b> ENTIDADES.h:138</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_7f57b1e41c5acd0e859ae5f3a2b075a9.html">headers</a></li><li class="navelem"><a class="el" href="_e_n_t_i_d_a_d_e_s_8h.html">ENTIDADES.h</a></li>
+    <li class="footer">Gerado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+  </ul>
+</div>
+</body>
+</html>
