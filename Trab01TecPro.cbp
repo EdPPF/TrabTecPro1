@@ -32,10 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="headers/Eduardo/DOMINIOS.h" />
-		<Unit filename="headers/Eduardo/ENTIDADES.h" />
-		<Unit filename="implementacao/Eduardo/DominiosIMPLEMENTACAO.cpp" />
-		<Unit filename="implementacao/Eduardo/EntidadesIMPLEMENTACAO.cpp" />
+		<Unit filename="headers/DOMINIOS.h" />
+		<Unit filename="headers/ENTIDADES.h" />
+		<Unit filename="headers/TesteDOMINIOS.h" />
+		<Unit filename="headers/TesteENTIDADES.h" />
+		<Unit filename="implementacao/DominiosIMPLEMENTACAO.cpp" />
+		<Unit filename="implementacao/EntidadesIMPLEMENTACAO.cpp" />
+		<Unit filename="implementacao/TesteDOMINIOS.cpp" />
+		<Unit filename="implementacao/TesteENTIDADES.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

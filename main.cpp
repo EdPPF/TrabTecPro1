@@ -137,5 +137,10 @@ int main() {
             break;
     }
 
+
+    // Informação para o arquivo executável:
+    cout << "\nPressione ENTER para encerrar." << endl;
+    getchar(); // Espera ENTER ser precionado.
+
     return 0;
 }

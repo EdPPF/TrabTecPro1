@@ -1,11 +1,11 @@
 @mainpage Sistema de Gerenciamento de Testes
-@authors **Eduardo Ferreira (190026987)**, **Renan Santos ()**
+@authors **Eduardo Ferreira (190026987)**, **Renan Santos (190064536)**
 
-### Trabalho de Técnicas de Programação 1 - UnB, 2023/1
-Nesta primeira etapa, serão desenvolvidas classes representando vários Domínios e Entidades do sistema.
-Além disso, serão implementados testes para essas classes.
+### Trabalho de Tecnicas de Programacao 1 - UnB, 2023/1
+Nesta primeira etapa, serao desenvolvidas classes representando varios Dominios e Entidades do sistema.
+Alem disso, serao implementados testes para essas classes.
 
-As classes Domínios são:
+As classes Dominios sao:
 	- CLASSE;
 	- CODIGO;
 	- DATA;
@@ -15,14 +15,14 @@ As classes Domínios são:
 	- TELEFONE;
 	- TEXTO.
 
-As Entidades são:
+As Entidades sao:
 	- Desenvolvedor;
 	- Testes;
 	- CasoDeTeste.
 
-Para os códigos escritos neste projeto, foram utilizados os seguintes critérios para padrão de codificação:
-	- Nomes de métodos e funções utilizam camelCase, exceto o método Validar() das classes Domínios;
-	- Nomes das classes pertencentes aos Domínios escritos em maiúsculas (all caps);
-	- Nomes das classes pertencentes às Entidades escritos apenas com a inicial de cada palavra em maiúsculo;
-	- Nomes de variáveis, argumentos e parâmetros em minúsculas;
-	- Estruturas de decisão "if" sempre abrem chaves.
+Para os codigos escritos neste projeto, foram utilizados os seguintes criterios para padrao de codificacao:
+	- Nomes de metodos e funcoes utilizam camelCase, exceto o metodo Validar() das classes Dominios;
+	- Nomes das classes pertencentes aos Dominios escritos em maiusculas (all caps);
+	- Nomes das classes pertencentes as Entidades escritos apenas com a inicial de cada palavra em maiusculo;
+	- Nomes de variaveis, argumentos e parametros em minusculas;
+	- Estruturas de decisao "if" sempre abrem chaves.

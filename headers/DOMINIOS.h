@@ -177,7 +177,7 @@ class RESULTADO : public DOMINIOS {
 */
 class CLASSE : public DOMINIOS {
     private:
-        std::string nome; /*!< Respresenta o nome do teste. */
+        std::string nome; /*!< Representa o nome do teste. */
 
         //! Método de validação do nome do tipo de teste.
         ///---------------------------------------------------
