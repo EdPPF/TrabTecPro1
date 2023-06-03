@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1684010717 source:c:\trab01tecpro\main.cpp
+1684011855 source:c:\trab01tecpro\main.cpp
 	"./headers/TesteDOMINIOS.h"
 	"./headers/TesteENTIDADES.h"
 	<iostream>
