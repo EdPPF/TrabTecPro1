@@ -36,6 +36,7 @@
 		<Unit filename="headers/ENTIDADES.h" />
 		<Unit filename="headers/TesteDOMINIOS.h" />
 		<Unit filename="headers/TesteENTIDADES.h" />
+		<Unit filename="headers/interfaces.h" />
 		<Unit filename="implementacao/DominiosIMPLEMENTACAO.cpp" />
 		<Unit filename="implementacao/EntidadesIMPLEMENTACAO.cpp" />
 		<Unit filename="implementacao/TesteDOMINIOS.cpp" />
