@@ -83,3 +83,15 @@
 	<stdexcept>
 	<string>
 
+1686249367 source:c:\trab01tecpro\implementacao\controladoras.cpp
+	"../headers/controladoras.h"
+	<iostream>
+
+1686249062 c:\trab01tecpro\headers\controladoras.h
+	"interfaces.h"
+	"DOMINIOS.h"
+
+1686249391 c:\trab01tecpro\headers\interfaces.h
+	"DOMINIOS.h"
+	"ENTIDADES.h"
+

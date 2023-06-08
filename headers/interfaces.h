@@ -1,7 +1,17 @@
 // Por: Eduardo Ferreira (190026987)
 
 #include "DOMINIOS.h"
+#include "ENTIDADES.h"
 
+//=================================================
+// Declaração de interface para serviço de autenticação provido pela camada de serviço.
+class ILNAutenticacao {
+public:
+    virtual bool autenticar(const MATRICULA&, const SENHA&) = 0;    // Método por meio do qual é solicitado serviço.
+    virtual ~ILNAutenticacao(){}                                    // Método destrutor virtual.
+};
+
+//=================================================
 // Interface Apresentação Autenticação (IAA):
 class InterAprAutentic {
     public:
