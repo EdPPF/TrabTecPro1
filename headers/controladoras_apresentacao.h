@@ -15,7 +15,7 @@ class CtrlAprInicial {
         InterAprAutentic *CtrlAprAutentic;
         InterAprDev *CtrlAprDev;
         InterAprTest *CtrlAprTest;
-        Matricula MATRICULA;
+        MATRICULA Matricula ;
         void ExecutarAutenticacao();
 };
 
