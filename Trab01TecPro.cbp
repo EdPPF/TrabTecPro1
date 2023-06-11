@@ -36,11 +36,13 @@
 		<Unit filename="headers/ENTIDADES.h" />
 		<Unit filename="headers/TesteDOMINIOS.h" />
 		<Unit filename="headers/TesteENTIDADES.h" />
+		<Unit filename="headers/controladoras.h" />
 		<Unit filename="headers/interfaces.h" />
 		<Unit filename="implementacao/DominiosIMPLEMENTACAO.cpp" />
 		<Unit filename="implementacao/EntidadesIMPLEMENTACAO.cpp" />
 		<Unit filename="implementacao/TesteDOMINIOS.cpp" />
 		<Unit filename="implementacao/TesteENTIDADES.cpp" />
+		<Unit filename="implementacao/controladoras.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
