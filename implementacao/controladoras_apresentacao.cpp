@@ -22,7 +22,7 @@ void CtrlAprInicial::setCtrlAprTest(InterAprTest *ctrl) {
 
 void CtrlAprInicial::ExecutarAutenticacao() {
     while(true) {
-        system("cls"); // Limppa a tela.
+        system("cls"); // Limpa a tela.
 
         cout << "+-+-Sistema de Gerenciamento de Testes-+-+" << endl;
         cout << "Matricula: " << Matricula.getValor() << endl;
@@ -139,6 +139,7 @@ void CtrlAprDev::setCtrlServiceDev(InterServiceDev *ctrl) {
 void CtrlAprDev::executar(MATRICULA* Matricula) {
     string senhaStr;
     SENHA objSenha;
+    Desenvolvedor objDev;
     char escolha;
 
     while(true) {
@@ -158,10 +159,12 @@ void CtrlAprDev::executar(MATRICULA* Matricula) {
                 cout << "Digite sua nova senha: ";
                 cin >> senhaStr;
 
-                objSenha.setValor(senhaStr);
+                objSenha.setValor(senhaStr);  // Necessário?
 
-                //if (CtrlServiceDev->editar(Desenvolvedor(*Matricula, objSenha))) {
-                if (CtrlServiceDev->editar(Desenvolvedor())) {
+                objDev.setMatrDev(Matricula->getValor());
+                objDev.setSenhaDev(senhaStr);
+
+                if (CtrlServiceDev->editar(objDev)) {
                     cout << "Senha alterada com sucesso." << endl;
                 }
                 else {
@@ -200,6 +203,7 @@ void CtrlAprDev::cadastrar() {
     string matriculaStr, senhaStr;
     MATRICULA objMatricula;
     SENHA objSenha;
+    Desenvolvedor objDev;
 
     while(true) {
         system("cls");
@@ -210,11 +214,13 @@ void CtrlAprDev::cadastrar() {
         cout << "Digite a Senha: ";
         cin >> senhaStr;
 
-        objMatricula.setValor(matriculaStr);
-        objSenha.setValor(senhaStr);
+        objMatricula.setValor(matriculaStr); // Necessário?
+        objSenha.setValor(senhaStr);         // Necessário?
 
-        //if (CtrlServiceDev->cadastrar(Desenvolvedor(objMatricula, objSenha))) {
-        if (CtrlServiceDev->cadastrar(Desenvolvedor())) {
+        objDev.setMatrDev(matriculaStr);
+        objDev.setSenhaDev(senhaStr);
+
+        if (CtrlServiceDev->cadastrar(objDev)) {
             cout << "Usuario cadastrado com sucesso." << endl;
             getch();
             return;
@@ -268,8 +274,7 @@ void CtrlAprTest::executar(CODIGO* Codigo) {
 
                 objTeste.setClasseTeste(classeStr);
 
-                //if (CtrlServiceTest->editarTeste(Testes(*Codigo, objClasse))) {
-                if (CtrlServiceTest->editarTeste(Testes())) {
+                if (CtrlServiceTest->editarTeste(objTeste)) {
                     cout << "Classe do teste alterada com sucesso." << endl;
                 }
                 else {
@@ -286,8 +291,7 @@ void CtrlAprTest::executar(CODIGO* Codigo) {
 
                 objTeste.setTextoTeste(textoStr);
 
-                //if (CtrlServiceTest->editarTeste(Testes(*Codigo, objClasse))) {
-                if (CtrlServiceTest->editarTeste(Testes())) {
+                if (CtrlServiceTest->editarTeste(objTeste)) {
                     cout << "Texto associado ao Teste alterado com sucesso." << endl;
                 }
                 else {
@@ -321,8 +325,7 @@ void CtrlAprTest::executar(CODIGO* Codigo) {
 
                 objCasoDeTeste.setCasoNome(nomeStr);
 
-                //if (CtrlServiceTest->editarCasoDeTeste(CasoDeTeste(*Codigo, objNome))) {
-                if (CtrlServiceTest->editarCasoDeTeste(CasoDeTeste())) {
+                if (CtrlServiceTest->editarCasoDeTeste(objCasoDeTeste)) {
                     cout << "Nome do Caso de Teste alterado com sucesso." << endl;
                 }
                 else {
