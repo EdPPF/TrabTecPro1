@@ -91,7 +91,18 @@
 	"interfaces.h"
 	"DOMINIOS.h"
 
-1686249391 c:\trab01tecpro\headers\interfaces.h
+1686599392 c:\trab01tecpro\headers\interfaces.h
+	<string>
 	"DOMINIOS.h"
 	"ENTIDADES.h"
+
+1686599931 source:c:\trab01tecpro\implementacao\controladoras_apresentacao.cpp
+	"../headers/controladoras_apresentacao.h"
+	<iostream>
+	<conio.h>
+	<string>
+
+1686599304 c:\trab01tecpro\headers\controladoras_apresentacao.h
+	"interfaces.h"
+	"DOMINIOS.h"
 
