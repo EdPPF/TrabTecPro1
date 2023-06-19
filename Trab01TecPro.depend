@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1685833389 source:c:\trab01tecpro\main.cpp
-	"./headers/TesteDOMINIOS.h"
-	"./headers/TesteENTIDADES.h"
+1687217443 source:c:\trab01tecpro\main.cpp
+	"headers/interfaces.h"
+	"headers/controladoras_apresentacao.h"
+	"stubs/stubs_servico.h"
 	<iostream>
 	<string>
 
@@ -91,18 +92,26 @@
 	"interfaces.h"
 	"DOMINIOS.h"
 
-1686599392 c:\trab01tecpro\headers\interfaces.h
+1687217490 c:\trab01tecpro\headers\interfaces.h
 	<string>
 	"DOMINIOS.h"
 	"ENTIDADES.h"
 
-1686599931 source:c:\trab01tecpro\implementacao\controladoras_apresentacao.cpp
+1687216944 source:c:\trab01tecpro\implementacao\controladoras_apresentacao.cpp
 	"../headers/controladoras_apresentacao.h"
 	<iostream>
 	<conio.h>
 	<string>
 
-1686599304 c:\trab01tecpro\headers\controladoras_apresentacao.h
+1687216844 c:\trab01tecpro\headers\controladoras_apresentacao.h
 	"interfaces.h"
 	"DOMINIOS.h"
+
+1687217102 source:c:\trab01tecpro\stubs\implementacao_stubs_servico.cpp
+	"stubs_servico.h"
+
+1687217135 c:\trab01tecpro\stubs\stubs_servico.h
+	"../headers/interfaces.h"
+	"../headers/ENTIDADES.h"
+	"../headers/DOMINIOS.h"
 

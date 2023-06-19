@@ -43,7 +43,7 @@ class CtrlAprDev: public InterAprDev {
 // Módulo Apresentação Testes/Casos de Teste:
 class CtrlAprTest: public InterAprTest {
     public:
-        void executar(CODIGO*);
+        void executar(MATRICULA*);
         void setCtrlServiceTest(InterServiceTest*);
 
     private:

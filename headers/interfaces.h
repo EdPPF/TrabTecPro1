@@ -1,5 +1,7 @@
 // Por: Eduardo Ferreira (190026987)
 
+#pragma once
+
 #include <string>
 #include "DOMINIOS.h"
 #include "ENTIDADES.h"
@@ -64,14 +66,14 @@ class InterServiceDev {
 class InterServiceTest {
     public:
         virtual bool cadastrarTeste(MATRICULA, Testes) = 0;
-        virtual bool descadastrarTeste(CODIGO) = 0;
+        virtual bool descadastrarTeste(MATRICULA) = 0;
         virtual bool editarTeste(Testes) = 0;
         virtual bool visualizarTeste(CODIGO, Testes*) = 0;
 
-        virtual bool cadastrarCasoDeTeste(CODIGO, CasoDeTeste) = 0;
-        virtual bool descadastrarCasoDeTeste(CODIGO) = 0;
+        virtual bool cadastrarCasoDeTeste(MATRICULA, CasoDeTeste) = 0;
+        virtual bool descadastrarCasoDeTeste(MATRICULA) = 0;
         virtual bool editarCasoDeTeste(CasoDeTeste) = 0;
         virtual bool visualizarCasoDeTeste(CODIGO, CasoDeTeste*) = 0;
 
-        ~InterServiceTest(){};
+        virtual ~InterServiceTest(){};
 };
