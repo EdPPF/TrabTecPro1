@@ -38,11 +38,13 @@
 		<Unit filename="headers/TesteENTIDADES.h" />
 		<Unit filename="headers/controladoras_apresentacao.h" />
 		<Unit filename="headers/interfaces.h" />
+		<Unit filename="headers/servicos_stubs.h" />
 		<Unit filename="implementacao/DominiosIMPLEMENTACAO.cpp" />
 		<Unit filename="implementacao/EntidadesIMPLEMENTACAO.cpp" />
 		<Unit filename="implementacao/TesteDOMINIOS.cpp" />
 		<Unit filename="implementacao/TesteENTIDADES.cpp" />
 		<Unit filename="implementacao/controladoras_apresentacao.cpp" />
+		<Unit filename="implementacao/servicos_stubs.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

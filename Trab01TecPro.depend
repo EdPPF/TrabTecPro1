@@ -95,3 +95,56 @@
 	"DOMINIOS.h"
 	"ENTIDADES.h"
 
+1686977103 source:c:\users\renan\documents\github\trabtecpro1\implementacao\controladoras_apresentacao.cpp
+	"../headers/controladoras_apresentacao.h"
+	<iostream>
+	<conio.h>
+	<string>
+
+1686977103 c:\users\renan\documents\github\trabtecpro1\headers\controladoras_apresentacao.h
+	"interfaces.h"
+	"DOMINIOS.h"
+
+1686977103 c:\users\renan\documents\github\trabtecpro1\headers\interfaces.h
+	<string>
+	"DOMINIOS.h"
+	"ENTIDADES.h"
+
+1686977085 c:\users\renan\documents\github\trabtecpro1\headers\dominios.h
+	<string>
+
+1686977085 c:\users\renan\documents\github\trabtecpro1\headers\entidades.h
+	"./DOMINIOS.h"
+	<string>
+
+1686977085 source:c:\users\renan\documents\github\trabtecpro1\implementacao\dominiosimplementacao.cpp
+	"../headers/DOMINIOS.h"
+	<stdexcept>
+	<string>
+	<regex>
+
+1686977085 source:c:\users\renan\documents\github\trabtecpro1\implementacao\entidadesimplementacao.cpp
+	"../headers/ENTIDADES.h"
+
+1686977085 source:c:\users\renan\documents\github\trabtecpro1\implementacao\testedominios.cpp
+	"../headers/TesteDOMINIOS.h"
+
+1686977085 c:\users\renan\documents\github\trabtecpro1\headers\testedominios.h
+	"./ENTIDADES.h"
+	<stdexcept>
+	<string>
+
+1686977085 source:c:\users\renan\documents\github\trabtecpro1\implementacao\testeentidades.cpp
+	"../headers/TesteENTIDADES.h"
+
+1686977085 c:\users\renan\documents\github\trabtecpro1\headers\testeentidades.h
+	".\ENTIDADES.h"
+	<stdexcept>
+	<string>
+
+1686977085 source:c:\users\renan\documents\github\trabtecpro1\main.cpp
+	"./headers/TesteDOMINIOS.h"
+	"./headers/TesteENTIDADES.h"
+	<iostream>
+	<string>
+
