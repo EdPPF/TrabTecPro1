@@ -2,19 +2,29 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="stubs\implementacao_stubs_servico.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="79" topLine="0" />
+			<Cursor1 position="1162" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="headers\controladoras_apresentacao.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+	<File name="headers\controladoras_apresentacao.h" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1220" topLine="27" />
+			<Cursor1 position="1223" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="headers\interfaces.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="914" zoom_1="0" zoom_2="3">
+		<Cursor>
+			<Cursor1 position="2689" topLine="53" />
+		</Cursor>
+	</File>
+	<File name="implementacao\DominiosIMPLEMENTACAO.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12075" topLine="307" />
 		</Cursor>
 	</File>
 	<File name="headers\ENTIDADES.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1428" topLine="171" />
+			<Cursor1 position="6021" topLine="136" />
 		</Cursor>
 		<Folding>
 			<Collapse line="229" />
@@ -25,24 +35,24 @@
 			<Collapse line="289" />
 		</Folding>
 	</File>
-	<File name="headers\interfaces.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="914" zoom_1="3" zoom_2="3">
+	<File name="headers\DOMINIOS.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1390" topLine="28" />
+			<Cursor1 position="40" topLine="0" />
 		</Cursor>
-		<Folding>
-			<Collapse line="18" />
-			<Collapse line="46" />
-		</Folding>
 	</File>
-	<File name="implementacao\controladoras_apresentacao.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="607" topLine="0" />
+			<Cursor1 position="1116" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="implementacao\controladoras_apresentacao.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8884" topLine="111" />
 		</Cursor>
 		<Folding>
 			<Collapse line="10" />
 			<Collapse line="14" />
 			<Collapse line="18" />
-			<Collapse line="22" />
 			<Collapse line="55" />
 			<Collapse line="87" />
 			<Collapse line="91" />
@@ -50,17 +60,21 @@
 			<Collapse line="138" />
 			<Collapse line="201" />
 			<Collapse line="239" />
-			<Collapse line="243" />
 		</Folding>
 	</File>
-	<File name="implementacao\DominiosIMPLEMENTACAO.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\Users\ppfed\OneDrive\Área de Trabalho\Faculdaahha\TecnProgr1\sqlite-amalgamation-3420000\sqlite-amalgamation-3420000\sqlite3.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="74" topLine="0" />
+			<Cursor1 position="87" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="headers\DOMINIOS.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="implementacao\EntidadesIMPLEMENTACAO.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="38" topLine="60" />
+			<Cursor1 position="35" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="stubs\stubs_servico.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="594" topLine="2" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

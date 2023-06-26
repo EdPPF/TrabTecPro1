@@ -44,6 +44,8 @@
 		<Unit filename="implementacao/TesteENTIDADES.cpp" />
 		<Unit filename="implementacao/controladoras_apresentacao.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="stubs/implementacao_stubs_servico.cpp" />
+		<Unit filename="stubs/stubs_servico.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
