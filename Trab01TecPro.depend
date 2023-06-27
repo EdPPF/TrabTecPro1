@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1687816183 source:c:\trab01tecpro\main.cpp
+1687889430 source:c:\trab01tecpro\main.cpp
 	"headers/interfaces.h"
 	"headers/controladoras_apresentacao.h"
 	"stubs/stubs_servico.h"
@@ -53,10 +53,10 @@
 	<string>
 	"../Eduardo/EdDOMINIOS.h"
 
-1685833389 c:\trab01tecpro\headers\dominios.h
+1687889430 c:\trab01tecpro\headers\dominios.h
 	<string>
 
-1685833389 source:c:\trab01tecpro\implementacao\dominiosimplementacao.cpp
+1687889430 source:c:\trab01tecpro\implementacao\dominiosimplementacao.cpp
 	"../headers/DOMINIOS.h"
 	<stdexcept>
 	<string>
@@ -65,22 +65,22 @@
 1683299159 source:c:\trab01tecpro\implementacao\entidadesimplementacao.cpp
 	"../headers/ENTIDADES.h"
 
-1685833389 c:\trab01tecpro\headers\entidades.h
+1687889430 c:\trab01tecpro\headers\entidades.h
 	"./DOMINIOS.h"
 	<string>
 
-1685833389 source:c:\trab01tecpro\implementacao\testedominios.cpp
+1687889430 source:c:\trab01tecpro\implementacao\testedominios.cpp
 	"../headers/TesteDOMINIOS.h"
 
-1685833389 c:\trab01tecpro\headers\testedominios.h
+1687889430 c:\trab01tecpro\headers\testedominios.h
 	"./ENTIDADES.h"
 	<stdexcept>
 	<string>
 
-1685833389 source:c:\trab01tecpro\implementacao\testeentidades.cpp
+1687889430 source:c:\trab01tecpro\implementacao\testeentidades.cpp
 	"../headers/TesteENTIDADES.h"
 
-1685833389 c:\trab01tecpro\headers\testeentidades.h
+1687889430 c:\trab01tecpro\headers\testeentidades.h
 	".\ENTIDADES.h"
 	<stdexcept>
 	<string>
@@ -93,33 +93,33 @@
 	"interfaces.h"
 	"DOMINIOS.h"
 
-1687217490 c:\trab01tecpro\headers\interfaces.h
+1687907233 c:\trab01tecpro\headers\interfaces.h
 	<string>
 	"DOMINIOS.h"
 	"ENTIDADES.h"
 
-1687886363 source:c:\trab01tecpro\implementacao\controladoras_apresentacao.cpp
+1687889430 source:c:\trab01tecpro\implementacao\controladoras_apresentacao.cpp
 	"../headers/controladoras_apresentacao.h"
 	<iostream>
 	<conio.h>
 	<string>
 
-1687216844 c:\trab01tecpro\headers\controladoras_apresentacao.h
+1687907241 c:\trab01tecpro\headers\controladoras_apresentacao.h
 	"interfaces.h"
 	"DOMINIOS.h"
 
-1687885520 source:c:\trab01tecpro\stubs\implementacao_stubs_servico.cpp
+1687889430 source:c:\trab01tecpro\stubs\implementacao_stubs_servico.cpp
 	"stubs_servico.h"
 
-1687217135 c:\trab01tecpro\stubs\stubs_servico.h
+1687889430 c:\trab01tecpro\stubs\stubs_servico.h
 	"../headers/interfaces.h"
 	"../headers/ENTIDADES.h"
 	"../headers/DOMINIOS.h"
 
-1687809749 source:c:\trab01tecpro\sqlite\comandossql.cpp
+1687889430 source:c:\trab01tecpro\sqlite\comandossql.cpp
 	"ComandosSQL.h"
 
-1687809631 c:\trab01tecpro\sqlite\comandossql.h
+1687889430 c:\trab01tecpro\sqlite\comandossql.h
 	<list>
 	<iostream>
 	<conio.h>
@@ -127,10 +127,10 @@
 	<stdio.h>
 	"sqlite3.h"
 
-1684244723 c:\trab01tecpro\sqlite\sqlite3.h
+1687889430 c:\trab01tecpro\sqlite\sqlite3.h
 	<stdarg.h>
 
-1684244723 source:c:\trab01tecpro\sqlite\sqlite3.c
+1687889430 source:c:\trab01tecpro\sqlite\sqlite3.c
 	<vxWorks.h>
 	<pthread.h>
 	"mingw.h"
@@ -192,21 +192,21 @@
 	<unicode/utf16.h>
 	<math.h>
 
-1687812137 source:c:\trab01tecpro\sqlite\comandos.cpp
+1687906628 source:c:\trab01tecpro\sqlite\comandos.cpp
 	"comandos.h"
 
-1687812013 c:\trab01tecpro\sqlite\comandos.h
+1687905991 c:\trab01tecpro\sqlite\comandos.h
 	<list>
 	<string>
 	"../headers/ENTIDADES.h"
 	"./ComandosSQL.h"
 
-1687816685 c:\trab01tecpro\sqlite\ctrl_servico_dev_sql.h
+1687889430 c:\trab01tecpro\sqlite\ctrl_servico_dev_sql.h
 	<list>
 	"../headers/ENTIDADES.h"
 	"../headers/interfaces.h"
 	"comandos.h"
 
-1687816683 source:c:\trab01tecpro\sqlite\ctrl_servico_dev_sql.cpp
+1687889430 source:c:\trab01tecpro\sqlite\ctrl_servico_dev_sql.cpp
 	"ctrl_servico_dev_SQL.h"
 

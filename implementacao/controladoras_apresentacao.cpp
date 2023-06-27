@@ -251,7 +251,7 @@ void CtrlAprTest::setCtrlServiceTest(InterServiceTest *ctrl) {
     CtrlServiceTest = ctrl;
 }
 
-void CtrlAprTest::executar(MATRICULA* Matricula) {
+void CtrlAprTest::executar(CODIGO* Code) {
     char escolha;
 
     string classeStr;
@@ -267,7 +267,7 @@ void CtrlAprTest::executar(MATRICULA* Matricula) {
     while (true) {
         system("cls");
         cout << "+-+-Sistema de Gerenciamento de Testes-+-+" << endl;
-        cout << "Teste: " << Matricula->getValor() << endl;
+        cout << "Teste: " << Code->getValor() << endl;
         cout << "1 - Editar Classe do Teste" << endl;
         cout << "2 - Editar Texto associado ao Teste" << endl;
         cout << "3 - Descadastrar Teste" << endl;
@@ -315,7 +315,7 @@ void CtrlAprTest::executar(MATRICULA* Matricula) {
                 escolha = getch();
 
                 if (escolha == 's' || escolha == 'S') {
-                    if (CtrlServiceTest->descadastrarTeste(*Matricula)) {
+                    if (CtrlServiceTest->descadastrarTeste(*Code)) {
                         cout << "Teste descadastrado com sucesso." << endl;
                         getch();
                         return;
