@@ -56,6 +56,7 @@
 		<Unit filename="sqlite/sqlite3.h" />
 		<Unit filename="stubs/implementacao_stubs_servico.cpp" />
 		<Unit filename="stubs/stubs_servico.h" />
+		<Unit filename="trab2db.db" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
