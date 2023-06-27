@@ -2,7 +2,7 @@
 
 // Stub Serviço de Autenticação
 bool stubServicoAutenticacao::autenticar(MATRICULA Matr, SENHA Senha) {
-    if (Matr.getValor() == "1900268" && Senha.getValor() == "brocli") {
+    if (Matr.getValor() == "1900268" && Senha.getValor() == "abc123") {
         return true;
     }
     return false;

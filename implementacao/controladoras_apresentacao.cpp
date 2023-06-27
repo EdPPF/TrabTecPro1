@@ -200,25 +200,35 @@ void CtrlAprDev::executar(MATRICULA* Matricula) {
 }
 
 void CtrlAprDev::cadastrar() {
-    string matriculaStr, senhaStr;
+    string matriculaStr, senhaStr, nomeStr, telStr;
     MATRICULA objMatricula;
     SENHA objSenha;
+    TEXTO objNome;
+    TELEFONE objTel;
     Desenvolvedor objDev;
 
     while(true) {
         system("cls");
         cout << "+-+-Sistema de Gerenciamento de Testes-+-+" << endl;
         cout << "Cadastro de Usuario" << endl;
-        cout << "Digite a Matricula: ";
+        cout << "Digite seu Nome: ";
+        cin >> nomeStr;
+        cout << "Digite sua Matricula: ";
         cin >> matriculaStr;
-        cout << "Digite a Senha: ";
+        cout << "Digite seu Telefone: ";
+        cin >> telStr;
+        cout << "Digite sua Senha: ";
         cin >> senhaStr;
 
         objMatricula.setValor(matriculaStr); // Necessário?
         objSenha.setValor(senhaStr);         // Necessário?
+        objNome.setValor(nomeStr);         // Necessário?
+        objTel.setValor(telStr);         // Necessário?
 
         objDev.setMatrDev(matriculaStr);
         objDev.setSenhaDev(senhaStr);
+        objDev.setNomeDev(nomeStr);
+        objDev.setTelDev(telStr);
 
         if (CtrlServiceDev->cadastrar(objDev)) {
             cout << "Usuario cadastrado com sucesso." << endl;

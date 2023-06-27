@@ -44,6 +44,16 @@
 		<Unit filename="implementacao/TesteENTIDADES.cpp" />
 		<Unit filename="implementacao/controladoras_apresentacao.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="sqlite/ComandosSQL.cpp" />
+		<Unit filename="sqlite/ComandosSQL.h" />
+		<Unit filename="sqlite/comandos.cpp" />
+		<Unit filename="sqlite/comandos.h" />
+		<Unit filename="sqlite/ctrl_servico_dev_SQL.cpp" />
+		<Unit filename="sqlite/ctrl_servico_dev_SQL.h" />
+		<Unit filename="sqlite/sqlite3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sqlite/sqlite3.h" />
 		<Unit filename="stubs/implementacao_stubs_servico.cpp" />
 		<Unit filename="stubs/stubs_servico.h" />
 		<Extensions>
