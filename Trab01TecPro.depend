@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1687217443 source:c:\trab01tecpro\main.cpp
+1687816183 source:c:\trab01tecpro\main.cpp
 	"headers/interfaces.h"
 	"headers/controladoras_apresentacao.h"
 	"stubs/stubs_servico.h"
+	"sqlite/ctrl_servico_dev_SQL.h"
 	<iostream>
 	<string>
 
@@ -199,4 +200,13 @@
 	<string>
 	"../headers/ENTIDADES.h"
 	"./ComandosSQL.h"
+
+1687816685 c:\trab01tecpro\sqlite\ctrl_servico_dev_sql.h
+	<list>
+	"../headers/ENTIDADES.h"
+	"../headers/interfaces.h"
+	"comandos.h"
+
+1687816683 source:c:\trab01tecpro\sqlite\ctrl_servico_dev_sql.cpp
+	"ctrl_servico_dev_SQL.h"
 

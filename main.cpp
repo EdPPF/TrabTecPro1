@@ -3,6 +3,8 @@
 #include "headers/controladoras_apresentacao.h"
 #include "stubs/stubs_servico.h"
 
+#include "sqlite/ctrl_servico_dev_SQL.h"
+
 #include <iostream>
 #include <string>
 
@@ -28,12 +30,15 @@ int main() {
     // Serviço:
     InterServiceAutentic *StubServiceAutentic;
     InterServiceTest *StubServiceTest;
+    InterServiceDev *ctrlServiceDev;
 
     StubServiceAutentic = new stubServicoAutenticacao();
     StubServiceTest = new stubServicoTestes();
+    ctrlServiceDev = new CtrlServiceDevSQL();
 
     ctrlAprAutentic->setCtrlServiceAutentic(StubServiceAutentic);
     ctrlAprTest->setCtrlServiceTest(StubServiceTest);
+    ctrlAprDev->setCtrlServiceDev(ctrlServiceDev);
 
     ctrlAprInit.executar();
 
